@@ -1,0 +1,44 @@
+body {
+	background: black;
+	margin: 0;
+	font-family: "Righteous";
+}
+
+h1 {
+	color: white;
+	top: 100px;
+	left: 100px;
+	position: relative;
+	
+	margin: 0;
+}
+
+main {
+	background-image: url("/assets/images/nasa-unsplash.jpg");
+	background-size: cover;
+	height: 75vh;
+}
+
+.container {
+
+}
+
+#map {
+	color: #fafafa;
+	height: 500px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, gray, black);
+	padding: 20px;
+	color: #fafafa;
+	position: fixed;
+	width: 100%;
+}
+
+footer {
+	background-image: linear-gradient(to bottom right, black, gray);
+	padding: 20px;
+}
