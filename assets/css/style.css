@@ -19,8 +19,22 @@ main {
 	height: 75vh;
 }
 
-.container {
+.mapContainer {
+	background-color: black;
+	width: 100%;
 
+}
+
+.textBlock, .textBlock2 {
+	padding: 40px;
+}
+
+.textBlock {
+	background-color: lavender;
+}
+
+.textBlock2 {
+	background-color: lavenderblush;
 }
 
 #map {
@@ -34,11 +48,13 @@ header {
 	background-image: linear-gradient(to bottom right, gray, black);
 	padding: 20px;
 	color: #fafafa;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
+	z-index: 1;
 }
 
 footer {
 	background-image: linear-gradient(to bottom right, black, gray);
 	padding: 20px;
+	
 }
