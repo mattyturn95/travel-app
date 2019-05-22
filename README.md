@@ -1,9 +1,34 @@
-# Second Milestone Project – Travel Application
+# Stephen Byrne Portfoloio
 
-## Pitch
+Stream Two Project: Interactive Frontend Development - Code Institute 
 
 The app routeRep will promote an emphasis on travelling in a way that is cost-effective, time-sensitive and most importantly environmentally friendly. Based on user input, it will provide users with a journey plan informed by these considerations. It will also allow them to view an itinerary of this journey. 
 Ultimately the app is not about discouraging travel. Instead it is about promoting environmentally friendly travel and a sustainable lifestyle. By translating the planned journey into tangible costs, in terms of time, money and impact on the environment, it is hoped that users will gain a deeper insight into their relationship with the environment and plan journeys in the most efficient way possible: timely, cheaply and cleanly. 
+
+## Demo
+
+## UX
+
+The user will be greeted by a welcome image that includes the app name. 
+
+Following this, an introductory section will set out some basic information about the goal of the app - to promote environmentally friendly travel. There will also be some basic guidance about how to use the app. 
+
+This section will be followed by another section containing the Google Maps API allowing users to select their destination. Based on the input provided by the user, the information will be provided under three sections below the map: cost, time and environmental impact, that will set out the costs incurred by the journey. Each of these sections will be contained in accordion-styled div containers on mobile to manage the information provided to the user in a clean and organised manner. 
+
+The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
+
+This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") provides a rough idea of the look of the final product. 
+
+
+## Technologies
+1. HTML
+2. CSS
+3. JavaScript
+4. Bootstrap (4.3.1)
+5. FontAwesome(v5.8.2)
+6. GoogleFonts
+7. Google Maps
+8. Google Places
 
 ## Features
 
@@ -17,15 +42,19 @@ Below this section will be a recommendation section. This section will detail th
 
 The final section will contain a list that will act as an itinerary for the user's trip. They can push choices made in previous sections, including the route and places to stay, dine and visit, into this list.
 
+## Features Left to Implement
 
-## Design
+...
 
-The user will be greeted by a welcome image that includes the app name. 
+## Testing
 
-Following this, an introductory section will set out some basic information about the goal of the app - to promote environmentally friendly travel. There will also be some basic guidance about how to use the app. 
+...
 
-This section will be followed by another section containing the Google Maps API allowing users to select their destination. Based on the input provided by the user, the information will be provided under three sections below the map: cost, time and environmental impact, that will set out the costs incurred by the journey. Each of these sections will be contained in accordion-styled div containers on mobile to manage the information provided to the user in a clean and organised manner. 
+## Deployment
 
-The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
+...
 
-This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") provides a rough idea of the look of the final product. 
+## Credits
+
+...
+
