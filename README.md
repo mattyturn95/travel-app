@@ -1,4 +1,4 @@
-# Stephen Byrne Portfoloio
+# Stephen Byrne Portfolio
 
 Stream Two Project: Interactive Frontend Development - Code Institute 
 
@@ -6,6 +6,8 @@ The app routeRep will promote an emphasis on travelling in a way that is cost-ef
 Ultimately the app is not about discouraging travel. Instead it is about promoting environmentally friendly travel and a sustainable lifestyle. By translating the planned journey into tangible costs, in terms of time, money and impact on the environment, it is hoped that users will gain a deeper insight into their relationship with the environment and plan journeys in the most efficient way possible: timely, cheaply and cleanly. 
 
 ## Demo
+
+...
 
 ## UX
 
