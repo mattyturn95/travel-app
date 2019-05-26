@@ -1,60 +1,102 @@
 body {
-	background: black;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #1a1a1a;
+}
+
+h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
+	color: #3bd679;
 }
 
-h1 {
-	color: white;
-	top: 100px;
-	left: 100px;
-	position: relative;
-	
-	margin: 0;
+.intro {
+    background-color: #3bd679;;
 }
+
 
 main {
-	background-image: url("/assets/images/nasa-unsplash.jpg");
+    background-image: url("/assets/images/nasa-unsplash.jpg");
 	background-size: cover;
-	height: 75vh;
-}
-
-.mapContainer {
-	background-color: black;
-	width: 100%;
-
-}
-
-.textBlock, .textBlock2 {
-	padding: 40px;
-}
-
-.textBlock {
-	background-color: lavender;
-}
-
-.textBlock2 {
-	background-color: lavenderblush;
-}
-
-#map {
-	color: #fafafa;
 	height: 500px;
-	width: 80%;
-	margin: 0 auto;
 }
-
-header {
-	background-image: linear-gradient(to bottom right, gray, black);
-	padding: 20px;
-	color: #fafafa;
-	/*position: fixed;*/
+#map {
+	height: 500px;
 	width: 100%;
-	z-index: 1;
+
 }
 
-footer {
-	background-image: linear-gradient(to bottom right, black, gray);
-	padding: 20px;
-	
+table {
+    font-size: 12px;
 }
+
+/*hotel results*/
+#listing { 
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+      
+#findhotels {
+    font-size: 14px;
+    padding: 4px;
+    background-color: #fff;
+}
+
+#locationField {
+    height: 25px;
+    background-color: #fff;
+}
+      
+#controls {
+    background-color: #fff;
+}
+      
+#autocomplete {
+    width: 100%;
+}
+      
+#country {
+        width: 100%;
+}
+      
+.placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+}
+      
+.hotelIcon {
+        width: 24px;
+        height: 24px;
+}
+      
+#resultsTable {
+        border-collapse: collapse;
+        width: 100%;
+}
+
+#rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+ }
+ 
+.iw_table_row {
+        height: 18px;
+ }
+      
+.iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+ }
+ 
+.iw_table_icon {
+        text-align: right;
+ }
+ 
+ .btn {
+     width: 100%;
+     font-family: "Righteous";
+ }
