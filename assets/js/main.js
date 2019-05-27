@@ -111,6 +111,8 @@ function onPlaceChanged() {
   }
 }
 
+
+
 // Button functionality
 
 stay.addEventListener("click", 
@@ -121,7 +123,7 @@ function search() {
     var search = {
     bounds: map.getBounds(),
     types: ["lodging"]
-  }
+  };
 
 
   places.nearbySearch(search, function(results, status) {
@@ -148,79 +150,60 @@ function search() {
       }
     }
   });
-}
-)
+
+
+}, false);
 
 //dine
 
-dine.addEventListener("click", 
-
-
-// Search for hotels in the selected city, within the viewport of the map.
-function search() {
+dine.addEventListener("click", function search() {
     var search = {
     bounds: map.getBounds(),
     types: ["restaurant"]
-  }
+  };
 
-
-  places.nearbySearch(search, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearResults();
-      clearMarkers();
-      // Create a marker for each hotel found, and
-      // assign a letter of the alphabetic to each marker icon.
-      for (var i = 0; i < results.length; i++) {
-        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
-        var markerIcon = MARKER_PATH + markerLetter + '.png';
-        // Use marker animation to drop the icons incrementally on the map.
-        markers[i] = new google.maps.Marker({
-          position: results[i].geometry.location,
-          animation: google.maps.Animation.DROP,
-          icon: markerIcon
-        });
-        // If the user clicks a hotel marker, show the details of that hotel
-        // in an info window.
-        markers[i].placeResult = results[i];
-        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-        setTimeout(dropMarker(i), i * 100);
-        addResult(results[i], i);
+    places.nearbySearch(search, function(results, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        clearResults();
+        clearMarkers();
+        for (var i = 0; i < results.length; i++) {
+          var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
+          var markerIcon = MARKER_PATH + markerLetter + '.png';
+          markers[i] = new google.maps.Marker({
+            position: results[i].geometry.location,
+            animation: google.maps.Animation.DROP,
+            icon: markerIcon
+          });
+          markers[i].placeResult = results[i];
+          google.maps.event.addListener(markers[i], 'click', showInfoWindow);
+          setTimeout(dropMarker(i), i * 100);
+          addResult(results[i], i);
+        }
       }
-    }
-  });
-}
-)
+    });
+}, false);
+
 
 //Places of Interest
 
-visit.addEventListener("click", 
-
-
-// Search for hotels in the selected city, within the viewport of the map.
-function search() {
+visit.addEventListener("click", function search() {
     var search = {
     bounds: map.getBounds(),
     types: ["places_of_interest"]
-  }
-
+  };
 
   places.nearbySearch(search, function(results, status) {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
-      // Create a marker for each hotel found, and
-      // assign a letter of the alphabetic to each marker icon.
       for (var i = 0; i < results.length; i++) {
         var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
         var markerIcon = MARKER_PATH + markerLetter + '.png';
-        // Use marker animation to drop the icons incrementally on the map.
         markers[i] = new google.maps.Marker({
           position: results[i].geometry.location,
           animation: google.maps.Animation.DROP,
           icon: markerIcon
         });
-        // If the user clicks a hotel marker, show the details of that hotel
-        // in an info window.
         markers[i].placeResult = results[i];
         google.maps.event.addListener(markers[i], 'click', showInfoWindow);
         setTimeout(dropMarker(i), i * 100);
@@ -228,8 +211,9 @@ function search() {
       }
     }
   });
-}
-)
+}, false);
+
+
 
 
 // <----Part II----->
@@ -267,6 +251,8 @@ function dropMarker(i) {
   };
 }
 
+//Results Table
+
 function addResult(result, i) {
   var results = document.getElementById('results');
   var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
@@ -290,7 +276,31 @@ function addResult(result, i) {
   tr.appendChild(iconTd);
   tr.appendChild(nameTd);
   results.appendChild(tr);
+  
+  
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u002B");
+  span.className = "close";
+  span.appendChild(txt);
+  tr.appendChild(span);
+
+
+  span.addEventListener("click", function () {
+  var li = document.createElement("li");
+  var t = document.createTextNode("result");
+  li.appendChild(t);
+  var ul = document.getElementById("myUL");
+  ul.appendChild(li);
 }
+, false);
+
+}
+  
+
+
+
+
+
 
 function clearResults() {
   var results = document.getElementById('results');
@@ -362,3 +372,18 @@ function buildIWContent(place) {
     document.getElementById('iw-website-row').style.display = 'none';
   }
 }
+
+//itinerary
+
+
+
+// function newElement() {
+//   var li = document.createElement("li");
+//   var t = document.createTextNode("hello");
+//   li.appendChild(t);
+//   var ul = document.getElementById("myUL");
+//   ul.appendChild(li);
+
+// }
+
+// span.addEventListener("click", newElement(), false);

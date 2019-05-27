@@ -100,3 +100,11 @@ table {
      width: 100%;
      font-family: "Righteous";
  }
+ 
+ .row {
+     padding: 10px;
+ }
+ 
+#itinerary {
+     background-color: gray;
+ }
