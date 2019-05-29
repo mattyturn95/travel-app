@@ -336,6 +336,6 @@ table {
 
 .sleeve {
     margin-bottom: 100px;
-    background-image: url("/assets/images/szmigiel-unsplash.jpg");
+    background-image: url(".././images/szmigiel-unsplash.jpg");
 	background-size: cover;
 }
