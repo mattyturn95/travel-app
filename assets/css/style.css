@@ -1,13 +1,15 @@
 body {
-	padding-left: 50px;
-	padding-right: 50px;
-	background-color: #FFD300;
+    padding-top: 40px;
+	/*padding-left: 40px;*/
+	/*padding-right: 40px;*/
+	/*background-color: #FFD300;*/
+	background-color: #1a1a1a;
 }
 
 h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
-	color: #3bd679;
+	color: #00ff80;
 }
 
 .intro {
@@ -133,15 +135,15 @@ table {
 /*cover*/
 
 .coverContainer {
-	background-color: #FFD300;
+	/*background-color: #FFD300;*/
 	font-family: "Righteous";
 }
 
 .first {
 	left: -380px;
-	width: 50%;
+	width: 15%;
 	background-color: #ff8000;
-	font-size: 80px;
+	font-size: 50px;
 	color: #fafafa;
 	animation: slide 0.8s linear;
 	animation-fill-mode: forwards;
@@ -151,9 +153,9 @@ table {
 
 .second {
 	left: -380px;
-	width: 75%;
+	width: 20%;
 	background-color: #00bfff;
-	font-size: 80px;
+	font-size: 50px;
 	color: #fafafa;
 	animation: slide 1s linear;
 	animation-fill-mode: forwards;
@@ -163,9 +165,9 @@ table {
 
 .third {
 	left: -380px;
-	width: 100%;
+	width: 25%;
 	background-color: #00ff80;
-	font-size: 80px;
+	font-size: 50px;
 	color: #fafafa;
 	margin-bottom: 5px;
 	animation: slide 1.2s linear;
@@ -175,7 +177,8 @@ table {
 
 .fourth {
 	height: 380px;
-	
+	/*background-image: url("/assets/images/szmigiel-unsplash.jpg");*/
+	/*background-size: cover;*/
 	font-size: 100px;
 	color: #fafafa;
 	/*animation: slide 1.2s linear;*/
@@ -248,13 +251,13 @@ table {
     transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     -moz-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #ffaf1c;
+    background-color:  #ff8000;
 }
 #side3 {
     transform: translateX(0px) translateY(0px) translateZ(56px);
     -moz-transform: translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #58d568;
+    background-color: #00ff80;
 }
 #side4 {
     transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
@@ -266,7 +269,7 @@ table {
     transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
     -moz-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #1c5ffe;
+    background-color: #00bfff;
 }
 #side6 {
     transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
@@ -300,7 +303,7 @@ table {
   left: 50%;
   transform: translateX(-50%);
   padding-bottom: 100px;
-  margin-top: 25px;
+  /*margin-top: 10px;*/
 }
 .mouse {
   max-width: 2.5rem;
@@ -333,4 +336,6 @@ table {
 
 .sleeve {
     margin-bottom: 100px;
+    background-image: url("/assets/images/szmigiel-unsplash.jpg");
+	background-size: cover;
 }
