@@ -287,10 +287,11 @@ function addResult(result, i) {
   
   span.addEventListener("click", function () {
   var li = document.createElement("li");
-  var t = document.createTextNode("result");
+  var t = document.createTextNode(nameTd);
   li.appendChild(t);
   var ul = document.getElementById("myUL");
   ul.appendChild(li);
+  
   var deleteItem = document.createElement("SPAN");
   var  deleteThis= document.createTextNode("\u00D7");
   deleteItem.className = "close";
