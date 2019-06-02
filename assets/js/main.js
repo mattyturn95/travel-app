@@ -283,14 +283,18 @@ function addResult(result, i) {
   span.className = "add";
   span.appendChild(txt);
   tr.appendChild(span);
+  
 
   
   span.addEventListener("click", function () {
   var li = document.createElement("li");
-  var t = document.createTextNode(nameTd);
+  var t = document.createTextNode(result.name);
   li.appendChild(t);
   var ul = document.getElementById("myUL");
   ul.appendChild(li);
+  
+  var filler = document.getElementById("filler");
+  filler.style.display = "none";
   
   var deleteItem = document.createElement("SPAN");
   var  deleteThis= document.createTextNode("\u00D7");
@@ -385,16 +389,3 @@ function buildIWContent(place) {
 }
 
 //itinerary
-
-
-
-// function newElement() {
-//   var li = document.createElement("li");
-//   var t = document.createTextNode("hello");
-//   li.appendChild(t);
-//   var ul = document.getElementById("myUL");
-//   ul.appendChild(li);
-
-// }
-
-// span.addEventListener("click", newElement(), false);
