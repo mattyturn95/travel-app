@@ -1,24 +1,21 @@
 body {
 
 	/*background-color: #FFD300;*/
-	background-color: #1a1a1a;
+	background-color: #fafafa;
 	
 }
 
 h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
-	color: #00ff80;
+	color: #fafafa;
 }
 
 .intro {
     /*background-color: #3bd679;*/
     /*background-color: #00ff80;*/
-    background-color: lightgray;
-    /*border-top-left-radius: 10px;*/
-    /*border-bottom-right-radius: 10px;*/
     font-size: 50px;
-    padding: 50px;
+    padding: 70px;
 
 }
 
@@ -56,10 +53,12 @@ table {
 #locationField {
     height: 25px;
     background-color: #fff;
+    font-size: 40px;
 }
       
 #controls {
     background-color: #fff;
+    font-size: 40px;
 }
       
 #autocomplete {
@@ -141,79 +140,67 @@ table {
 	font-family: "Righteous";
 }
 
-/*.first {*/
-/*	left: -380px;*/
-/*	width: 20%;*/
-/*	background-color: #ff8000;*/
-/*	font-size: 50px;*/
-/*	color: #fafafa;*/
-/*	animation: slide 0.8s linear;*/
-/*	animation-fill-mode: forwards;*/
-/*	margin-bottom: 5px;*/
-/*	border-bottom: 5px solid white;*/
-/*}*/
-
-/*.second {*/
-/*	left: -380px;*/
-/*	width: 25%;*/
-/*	background-color: #00bfff;*/
-/*	font-size: 50px;*/
-/*	color: #fafafa;*/
-/*	animation: slide 1s linear;*/
-/*	animation-fill-mode: forwards;*/
-/*	margin-bottom: 5px;*/
-/*	border-bottom: 5px solid white;*/
-/*}*/
-
-/*.third {*/
-/*	left: -380px;*/
-/*	width: 30%;*/
-/*	background-color: #00ff80;*/
-/*	font-size: 50px;*/
-/*	color: #fafafa;*/
-/*	margin-bottom: 5px;*/
-/*	animation: slide 1.2s linear;*/
-/*	animation-fill-mode: forwards;*/
-/*	border-bottom: 5px solid white;*/
-/*}*/
-
-.fourth {
-	/*height: 380px;*/
-	font-family: "Righteous";
-	font-size: 100px;
+.number1 {
+    font-size: 75px;
+	left: -380px;
+	width: 30%;
+	background-color: #ff8000;
 	color: #fafafa;
-	/*margin: 0 auto;*/
-	/*position: absolute;*/
- /*   top: calc(50% - 10px);*/
- /*   left: calc(25% - 20px);*/
-    
+	animation: slide 0.8s linear;
+	animation-fill-mode: forwards;
+	margin-bottom: 5px;
+	border-bottom: 5px solid white;
 }
 
-/*@keyframes slideIn {*/
-/*	from {*/
-/*		width: 0;*/
-/*	}*/
-
-/*	to {*/
-/*		width: 380px;*/
-/*	}*/
-
-/*}*/
-
-/*@keyframes slide {*/
-/*	from {*/
-/*		transform: translate(-400px);*/
-/*	}*/
-
-/*	to {*/
-/*		transform: translate(0);*/
-/*	}*/
-
-/*}*/
-
-.brandName {
-    padding: 50px;
+.number2 {
+    font-size: 75px;
+	left: -380px;
+	width: 40%;
+	background-color: #00bfff;
+	color: #fafafa;
+	animation: slide 1s linear;
+	animation-fill-mode: forwards;
+	margin-bottom: 5px;
+	border-bottom: 5px solid white;
 }
+
+.number3 {
+    font-size: 75px;
+	left: -380px;
+	width: 50%;
+	background-color: #00ff80;
+	color: #fafafa;
+	margin-bottom: 5px;
+	animation: slide 1.2s linear;
+	animation-fill-mode: forwards;
+	border-bottom: 5px solid white;
+	margin-bottom: 70px;
+}
+
+
+@keyframes slideIn {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 380px;
+	}
+
+}
+
+@keyframes slide {
+	from {
+		transform: translate(-400px);
+	}
+
+	to {
+		transform: translate(0);
+	}
+
+}
+
+
 
 .section {
 	position: absolute;
@@ -247,12 +234,12 @@ table {
 
 #wrapD3Cube {
     /*width: 350px;*/
-    width: 525px;
     height: 313px;
     margin-top: 50px;
     /*float: right;*/
     /*background-color: #EEE;*/
     font-size: 85px;
+    font-family: "Righteous";
 }
 
 #D3Cube {
@@ -271,6 +258,7 @@ table {
     transform-style: preserve-3d;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    
 }
 
 #D3Cube > div {
@@ -289,8 +277,9 @@ table {
     -moz-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #FFF;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
+    color: #fafafa;
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
     /*opacity: 0.85;*/
 }
 
@@ -299,9 +288,10 @@ table {
     -moz-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color:  #ff8000;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
-    color: #FFD300;
+    color: #fafafa;
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
+    /*color: #FFD300;*/
 }
 
 #side3 {
@@ -309,9 +299,10 @@ table {
     -moz-transform: translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
     background-color: #00ff80;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
-    color: #FFD300;
+    color: #fafafa;
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
+    /*color: #FFD300;*/
 }
 
 #side4 {
@@ -319,9 +310,10 @@ table {
     -moz-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #ed3030;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
-    color: #FFD300;
+    color: #fafafa;
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
+    /*color: #FFD300;*/
 }
 
 #side5 {
@@ -329,9 +321,10 @@ table {
     -moz-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #00bfff;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
-    color: #FFD300;
+    color: #fafafa;
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
+    /*color: #FFD300;*/
 }
 
 #side6 {
@@ -339,9 +332,11 @@ table {
     -moz-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     -webkit-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #f2f215;
-    background-color: #1a1a1a;
-    border: 5px solid #fafafa;
-    color: #FFD300;
+    color: #fafafa;
+    
+    /*background-color: #1a1a1a;*/
+    /*border: 5px solid #fafafa;*/
+    /*color: #FFD300;*/
 }
 
 #D3Cube {
