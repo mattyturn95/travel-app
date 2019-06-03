@@ -2,28 +2,20 @@ body {
 
 	/*background-color: #FFD300;*/
 	background-color: #fafafa;
+	font-family: "Cabin";
 	
 }
 
 h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
-	color: #fafafa;
+	/*color: #fafafa;*/
 }
 
 .intro {
-    /*background-color: #3bd679;*/
-    /*background-color: #00ff80;*/
     font-size: 50px;
     padding: 70px;
-
 }
-
-.btn-lg {
-    font-size: 75px;
-}
-
-
 
 #map {
 	height: 500px;
@@ -87,7 +79,7 @@ table {
 
 #rating {
         font-size: 13px;
-        font-family: Arial Unicode MS;
+        /*font-family: 'Cabin';*/
  }
  
 .iw_table_row {
@@ -103,9 +95,30 @@ table {
         text-align: right;
  }
  
- .btn {
-     width: 100%;
+ /*google code ends*/
+ 
+ #stay, #dine, #visit {
      font-family: "Righteous";
+     width: 100%;
+     font-size: 75px;
+ }
+ 
+ #stay:hover, #dine:hover, #visit:hover {
+     background-color: violet;
+     color: #fafafa;
+ }
+ 
+ 
+ #stay {
+ background-color: #ff8000;
+ }
+ 
+ #dine {
+     background-color: #00bfff;
+ }
+ 
+ #visit {
+     background-color: #00ff80;
  }
  
  .row {
@@ -118,11 +131,13 @@ table {
  }
  
 .close {
-  right: 0;
-  top: 0;
-  font-size: 20px;
+  right: 0px;
+  top: 0px;
+  font-size: 80px;
   cursor: pointer;
-  color: #1a1a1a;
+  color: #fafafa;
+  opacity: 1;
+  line-height: 0.5;
 }
 
 .add {
@@ -158,7 +173,7 @@ table {
 	width: 40%;
 	background-color: #00bfff;
 	color: #fafafa;
-	animation: slide 1s linear;
+	animation: slideIn 1s linear;
 	animation-fill-mode: forwards;
 	margin-bottom: 5px;
 	border-bottom: 5px solid white;
@@ -166,12 +181,11 @@ table {
 
 .number3 {
     font-size: 75px;
-	left: -380px;
-	width: 50%;
+    width: 0px;
 	background-color: #00ff80;
 	color: #fafafa;
 	margin-bottom: 5px;
-	animation: slide 1.2s linear;
+	animation: slideIn 1.2s linear;
 	animation-fill-mode: forwards;
 	border-bottom: 5px solid white;
 	margin-bottom: 70px;
@@ -184,7 +198,7 @@ table {
 	}
 
 	to {
-		width: 380px;
+		width: 500px;
 	}
 
 }
@@ -198,6 +212,14 @@ table {
 		transform: translate(0);
 	}
 
+}
+
+.introText {
+    /*padding: 20px;*/
+    /*color: #fafafa;*/
+    /*background-color: #1a1a1a;*/
+    /*border-bottom-left-radius: 100%;*/
+    /*border-bottom-right-radius: 100%;*/
 }
 
 
@@ -236,8 +258,6 @@ table {
     /*width: 350px;*/
     height: 313px;
     margin-top: 50px;
-    /*float: right;*/
-    /*background-color: #EEE;*/
     font-size: 85px;
     font-family: "Righteous";
 }
@@ -269,7 +289,6 @@ table {
     height: 112px;
     float: left;
     overflow: hidden;
-    /*opacity: 0.85;*/
 }
 
 #side1 {
@@ -278,8 +297,6 @@ table {
     -webkit-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #FFF;
     color: #fafafa;
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
     /*opacity: 0.85;*/
 }
 
@@ -289,8 +306,6 @@ table {
     -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color:  #ff8000;
     color: #fafafa;
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
     /*color: #FFD300;*/
 }
 
@@ -300,9 +315,6 @@ table {
     -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
     background-color: #00ff80;
     color: #fafafa;
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
-    /*color: #FFD300;*/
 }
 
 #side4 {
@@ -311,9 +323,6 @@ table {
     -webkit-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #ed3030;
     color: #fafafa;
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
-    /*color: #FFD300;*/
 }
 
 #side5 {
@@ -322,9 +331,6 @@ table {
     -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
     background-color: #00bfff;
     color: #fafafa;
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
-    /*color: #FFD300;*/
 }
 
 #side6 {
@@ -398,43 +404,33 @@ table {
 /* mouse svg ends */
 
 .sleeve {
-    /*padding: 50px;*/
-    /*margin: 20px;*/
-    /*background: url(".././images/deglee-degi-unsplash.jpg") no-repeat center center;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-    
     background-image:url(".././images/szmigiel-unsplash.jpg");
-    /*background-repeat:no-repeat;*/
-    /*background-size:contain;*/
-    /*background-position:center;*/
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-    
-    
 }
 
 .thePlanner {
   height: calc(100vh - 1rem);
 }
 
+#myUL {
+    list-style: none;
+    padding: 0;
+}
+
+#myUL>li {
+    background-color: #00bfff;
+    color: #fafafa;
+    border: 5px solid #fafafa;
+    font-size: 30px;
+    padding: 20px;
+}
 
 
 @media screen and (max-width: 640px){
-.sleeve {
-    height: calc(100vh - 1rem);
+    .sleeve {
+        height: calc(100vh - 1rem);
+    }
 }
-
-
-}
-
-/*@media screen and (max-width: 990px){*/
-/*    #D3Cube {*/
-/*    display: none;*/
-/*}*/
-/*}*/

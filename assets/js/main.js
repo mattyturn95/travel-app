@@ -63,7 +63,7 @@ var countries = {
   }
 };
 
-
+//Function declared on pageload displaying map
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -157,6 +157,7 @@ function search() {
 //dine
 
 dine.addEventListener("click", function search() {
+  
     var search = {
     bounds: map.getBounds(),
     types: ["restaurant"]
@@ -277,7 +278,6 @@ function addResult(result, i) {
   tr.appendChild(nameTd);
   results.appendChild(tr);
   
-  
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u002B");
   span.className = "add";
@@ -311,10 +311,6 @@ function addResult(result, i) {
 
 }
    
-
-
-
-
 
 
 function clearResults() {

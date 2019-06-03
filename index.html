@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Travel App Prototype</title>
-	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Cabin&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,7 +13,7 @@
 			<div class="section">
 				<div class="svg-container">
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="315" height="350" xmlns:xlink="http://www.w3.org/1999/xlink">
-				    	<polygon class="hex" points="300,150 300,215 150,280 0,215 0,85 150,20 300,85 300,150 0,150" fill="#fa5" fill-opacity="0.0" stroke="#fafafa" stroke-width="10" transform="translate(10)"></polygon>
+				    	<polygon class="hex" points="300,150 300,215 150,280 0,215 0,85 150,20 300,85 300,150 0,150" fill="violet" fill-opacity="0.5" stroke="#fafafa" stroke-width="10" transform="translate(10)"></polygon>
 						    <text x="160" y="130" 
 						        font-family="Righteous" 
 						        font-size="60"
@@ -48,28 +48,24 @@
 		<div class="number1"><span>Plan</span></div>
 		<div class="number2"><span>Your</span></div>
 		<div class="number3"><span>Next Trip</span></div>
-		<span>Welcome!</span>
-		<div class="row">
+		<div class="row introText">
 			<div class="col-sm-12">
+				<span>Welcome!</span>
 				<p> Plan your next trip with routeRep! The routeRep app harnesses the power of
 				the Google Maps API to provide you with a quick and seamless way to make plans 
 				for a trip and record them in an itinerary. Choose from one of ten european cities
 				and find great places to visit, stay and dine! 
 				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
 					<div id="wrapD3Cube">
-				    <div id="D3Cube">
-				        <div id="side1"></div>
-				        <div id="side2"><span>ut</span></div>
-				        <div id="side3">eR</div>
-				        <div id="side4">ep</div>
-				        <div id="side5">ro</div>
-				        <div id="side6"></div>
-				    </div>
-				</div>
+					    <div id="D3Cube">
+					        <div id="side1"></div>
+					        <div id="side2"><span>ut</span></div>
+					        <div id="side3">eR</div>
+					        <div id="side4">ep</div>
+					        <div id="side5">ro</div>
+					        <div id="side6"></div>
+				    	</div>
+					</div>
 			</div>
 		</div>
 		
@@ -109,13 +105,13 @@
 			</div>
 		    <div class="row select">
 	    		<div class="col-4">
-	    			<button id="stay" class="btn btn-primary btn-lg">Stay</button>
+	    			<button id="stay" class="btn-lg">Stay</button>
 	    		</div>
 	    		<div class="col-4">
-	    			<button id="visit" class="btn btn-success btn-lg">Visit</button>
+	    			<button id="visit" class="btn-lg">Visit</button>
 	    		</div>
 	    		<div class="col-4">
-	    			<button id="dine" class="btn btn-danger btn-lg">Dine</button>
+	    			<button id="dine" class="btn-lg">Dine</button>
 	    		</div>
 	    	</div>
 			<div class="row">
