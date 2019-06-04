@@ -77,10 +77,10 @@ The photo at the top of the app was taken from unsplash, a stock image library.
 
 ### Acknowledgements
 
-[SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo “SVG mouse”)
+[SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse")
 
 The planning section’s map functionality was modelled after the code contained in the Google Maps API documentation, specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 
 
-[google maps documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch “google maps documentation”)
+[google maps documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "google maps documentation")
 
 

@@ -104,7 +104,7 @@ const onPlaceChanged = () => {
   var place = autocomplete.getPlace();
   if (place.geometry) {
     map.panTo(place.geometry.location);
-    map.setZoom(15);
+    map.setZoom(14);
     // search();
   } else {
     document.getElementById('autocomplete').placeholder = 'Enter a city';
@@ -156,14 +156,7 @@ function search() {
 
 //dine
 
-dine.addEventListener("click", function search() {
-  
-    var search = {
-    bounds: map.getBounds(),
-    types: ["restaurant"]
-  };
-
-    places.nearbySearch(search, function(results, status) {
+const myFunctionGo = (results, status) => {
       if (status === google.maps.places.PlacesServiceStatus.OK) {
         clearResults();
         clearMarkers();
@@ -181,7 +174,16 @@ dine.addEventListener("click", function search() {
           addResult(results[i], i);
         }
       }
-    });
+    }
+
+dine.addEventListener("click", function search() {
+  
+    var search = {
+    bounds: map.getBounds(),
+    types: ["restaurant", "bar"]
+  };
+
+    places.nearbySearch(search, myFunctionGo());
 }, false);
 
 
@@ -190,28 +192,10 @@ dine.addEventListener("click", function search() {
 visit.addEventListener("click", function search() {
     var search = {
     bounds: map.getBounds(),
-    types: ["places_of_interest"]
+    types: ["museum", "park", "zoo", "art_gallery", "church"]
   };
 
-  places.nearbySearch(search, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearResults();
-      clearMarkers();
-      for (var i = 0; i < results.length; i++) {
-        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
-        var markerIcon = MARKER_PATH + markerLetter + '.png';
-        markers[i] = new google.maps.Marker({
-          position: results[i].geometry.location,
-          animation: google.maps.Animation.DROP,
-          icon: markerIcon
-        });
-        markers[i].placeResult = results[i];
-        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-        setTimeout(dropMarker(i), i * 100);
-        addResult(results[i], i);
-      }
-    }
-  });
+  places.nearbySearch(search, myFunctionGo());
 }, false);
 
 
