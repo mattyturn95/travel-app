@@ -1,20 +1,48 @@
 body {
-
 	/*background-color: #FFD300;*/
 	background-color: #fafafa;
 	font-family: "Cabin";
-	
 }
 
 h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
-	/*color: #fafafa;*/
 }
 
 .intro {
-    font-size: 50px;
+    font-size: 35px;
     padding: 70px;
+}
+
+.sleeve {
+    background-image:url(".././images/szmigiel-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.thePlanner {
+  height: calc(100vh - 1rem);
+}
+
+#myUL {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fafafa;
+    height: 100px;
+}
+
+#myUL>li {
+    background-color: #00bfff;
+    color: #fafafa;
+    border: 5px solid #fafafa;
+    font-size: 30px;
+    padding: 20px;
 }
 
 #map {
@@ -22,11 +50,13 @@ h1, h2 {
 	width: 100%;
 }
 
-table {
-    font-size: 12px;
-}
+
 
 /*hotel results*/
+/*#info-content {*/
+/*}*/
+
+
 #listing { 
     height: 500px;
     width: 100%;
@@ -50,7 +80,8 @@ table {
       
 #controls {
     background-color: #fff;
-    font-size: 40px;
+    font-size: 20px;
+    background-color: #fafafa;
 }
       
 #autocomplete {
@@ -79,7 +110,6 @@ table {
 
 #rating {
         font-size: 13px;
-        /*font-family: 'Cabin';*/
  }
  
 .iw_table_row {
@@ -95,12 +125,16 @@ table {
         text-align: right;
  }
  
+ table {
+     font-size: 15px;
+ }
+ 
  /*google code ends*/
  
  #stay, #dine, #visit {
      font-family: "Righteous";
      width: 100%;
-     font-size: 75px;
+     font-size: 50px;
  }
  
  #stay:hover, #dine:hover, #visit:hover {
@@ -372,6 +406,7 @@ table {
   /*margin: 0 47.5%;*/
   /*padding-bottom: 100px;*/
 }
+
 .mouse {
   max-width: 2.5rem;
   width: 100%;
@@ -403,34 +438,10 @@ table {
 
 /* mouse svg ends */
 
-.sleeve {
-    background-image:url(".././images/szmigiel-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-}
-
-.thePlanner {
-  height: calc(100vh - 1rem);
-}
-
-#myUL {
-    list-style: none;
-    padding: 0;
-}
-
-#myUL>li {
-    background-color: #00bfff;
-    color: #fafafa;
-    border: 5px solid #fafafa;
-    font-size: 30px;
-    padding: 20px;
-}
-
-
 @media screen and (max-width: 640px){
     .sleeve {
         height: calc(100vh - 1rem);
     }
 }
+
+/*scroll-link display:none for small height screens*/

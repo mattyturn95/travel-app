@@ -77,13 +77,9 @@
 				<div class="col"><h2>Planner</h2></div>
 			</div>
 	  		<div class="row select">
-	    		<div class="col-6">
-	    			<div id="locationField" >
-	    				<input id="autocomplete" placeholder="Enter a city" type="text" />
-	    			</div>
-	    		</div>
 				<div class="col-6">
 					<div id="controls">
+					<label for="country">Choose a country...</label>
 						<select id="country">
 					    <option value="all">All</option>
 					    <option value="au">Australia</option>
@@ -102,7 +98,16 @@
 					  </select>
 					</div>
 				</div>
+				<div class="col-6">
+	    			<div id="locationField" >
+	    				<input id="autocomplete" placeholder="Enter a city" type="text" />
+	    			</div>
+	    		</div>
 			</div>
+			
+		
+		
+			
 		    <div class="row select">
 	    		<div class="col-4">
 	    			<button id="stay" class="btn-lg">Stay</button>
@@ -171,6 +176,10 @@
 		</div>
 	</div>
 	
+	<footer>@copyright 2019</footer>
+	
+<script src="./libraries/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcf5UynM1en11ElWohe4oyPwIFC_D93Gk&libraries=places&callback=initMap" async defer></script>
    

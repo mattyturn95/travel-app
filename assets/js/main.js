@@ -65,7 +65,7 @@ var countries = {
 
 //Function declared on pageload displaying map
 
-function initMap() {
+function initMap () {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: countries['us'].zoom,
     center: countries['us'].center,
@@ -100,7 +100,7 @@ function initMap() {
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
-function onPlaceChanged() {
+const onPlaceChanged = () => {
   var place = autocomplete.getPlace();
   if (place.geometry) {
     map.panTo(place.geometry.location);
@@ -109,7 +109,7 @@ function onPlaceChanged() {
   } else {
     document.getElementById('autocomplete').placeholder = 'Enter a city';
   }
-}
+};
 
 
 
@@ -215,23 +215,21 @@ visit.addEventListener("click", function search() {
 }, false);
 
 
-
-
 // <----Part II----->
 
 
-function clearMarkers() {
+const clearMarkers = () => {
   for (var i = 0; i < markers.length; i++) {
     if (markers[i]) {
       markers[i].setMap(null);
     }
   }
   markers = [];
-}
+};
 
 // Set the country restriction based on user input.
 // Also center and zoom the map on the given country.
-function setAutocompleteCountry() {
+const setAutocompleteCountry =()=> {
   var country = document.getElementById('country').value;
   if (country == 'all') {
     autocomplete.setComponentRestrictions({'country': []});
@@ -244,17 +242,17 @@ function setAutocompleteCountry() {
   }
   clearResults();
   clearMarkers();
-}
+};
 
-function dropMarker(i) {
+const dropMarker = (i) => {
   return function() {
     markers[i].setMap(map);
   };
-}
+};
 
 //Results Table
 
-function addResult(result, i) {
+const addResult =(result, i)=> {
   var results = document.getElementById('results');
   var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
   var markerIcon = MARKER_PATH + markerLetter + '.png';
@@ -305,24 +303,24 @@ function addResult(result, i) {
   deleteItem.onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
-  }
+  };
 }
 , false);
 
-}
+};
    
 
 
-function clearResults() {
+const clearResults = () => {
   var results = document.getElementById('results');
   while (results.childNodes[0]) {
     results.removeChild(results.childNodes[0]);
   }
-}
+};
 
 // Get the place details for a hotel. Show the information in an info window,
 // anchored on the marker for the hotel that the user selected.
-function showInfoWindow() {
+function showInfoWindow (){
   var marker = this;
   places.getDetails({placeId: marker.placeResult.place_id},
       function(place, status) {
@@ -332,10 +330,10 @@ function showInfoWindow() {
         infoWindow.open(map, marker);
         buildIWContent(place);
       });
-}
+};
 
 // Load the place information into the HTML elements used by the info window.
-function buildIWContent(place) {
+const buildIWContent =(place)=> {
   document.getElementById('iw-icon').innerHTML = '<img class="hotelIcon" ' +
       'src="' + place.icon + '"/>';
   document.getElementById('iw-url').innerHTML = '<b><a href="' + place.url +
@@ -382,6 +380,4 @@ function buildIWContent(place) {
   } else {
     document.getElementById('iw-website-row').style.display = 'none';
   }
-}
-
-//itinerary
+};
