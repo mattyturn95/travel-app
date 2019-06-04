@@ -1,3 +1,7 @@
+/*html {*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
 body {
 	/*background-color: #FFD300;*/
 	background-color: #fafafa;
@@ -22,9 +26,9 @@ h1, h2 {
     height: 100vh;
 }
 
-.thePlanner {
-  height: calc(100vh - 1rem);
-}
+/*.thePlanner {*/
+/*  height: calc(100vh - 1rem);*/
+/*}*/
 
 #myUL {
     list-style: none;

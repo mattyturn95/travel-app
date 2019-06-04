@@ -2,26 +2,6 @@
 
 Stream Two Project: Interactive Frontend Development - Code Institute 
 
-The app routeRep will promote an emphasis on travelling in a way that is cost-effective, time-sensitive and most importantly environmentally friendly. Based on user input, it will provide users with a journey plan informed by these considerations. It will also allow them to view an itinerary of this journey. 
-Ultimately the app is not about discouraging travel. Instead it is about promoting environmentally friendly travel and a sustainable lifestyle. By translating the planned journey into tangible costs, in terms of time, money and impact on the environment, it is hoped that users will gain a deeper insight into their relationship with the environment and plan journeys in the most efficient way possible: timely, cheaply and cleanly. 
-
-## Demo
-
-...
-
-## UX
-
-The user will be greeted by a welcome image that includes the app name. 
-
-Following this, an introductory section will set out some basic information about the goal of the app - to promote environmentally friendly travel. There will also be some basic guidance about how to use the app. 
-
-This section will be followed by another section containing the Google Maps API allowing users to select their destination. Based on the input provided by the user, the information will be provided under three sections below the map: cost, time and environmental impact, that will set out the costs incurred by the journey. Each of these sections will be contained in accordion-styled div containers on mobile to manage the information provided to the user in a clean and organised manner. 
-
-The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
-
-This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") provides a rough idea of the look of the final product. 
-
-
 ## Technologies
 1. HTML
 2. CSS
@@ -32,31 +12,75 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 7. Google Maps
 8. Google Places
 
-## Features
 
-The app will harvest data provided by the Google Maps API in conjunction with user input to provide the user with information about how to reach their chosen destination in the cheapest and cleanest way possible within an appropriate timeframe. 
-The user will select their location and choose a destination using the Google Maps API provided. The application will then take this data and provide the user with options that promote a balance between price, time and impact on the environment. This information will be represented just below the map, with one section for each of these considerations. 
-The sections will display various options, with information on how long each option will take, how the user will reach their destination and also what the impact of the journey will be on the environment.  
-
-The map section will also incorporate the places API to allow the user to identify places to stay, dine and visit, displayed with a unique UI designed by me. There will be an emphasis on establishments that promote and practice environmentally friendly policies in keeping with the theme of the app.
-
-Below this section will be a recommendation section. This section will detail the journey’s carbon footprint based on calculations using JavaScript and determine how the user can reach their destination with the smallest footprint possible based on available data. It will also inform the user how she may compensate for whatever negative impact the journey will have on the environment. For example, the user will have to plant X amount of trees and flying Y miles on a plane. 
-
-The final section will contain a list that will act as an itinerary for the user's trip. They can push choices made in previous sections, including the route and places to stay, dine and visit, into this list.
-
-## Features Left to Implement
+## Demo
 
 ...
+
+## Technologies
+
+...
+
+## UX
+
+I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
+
+The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
+
+Directly below this image is an introductory section that provides some basic guidance about how to use the app. The app is designed to be as intuitive as possible and so the text here was kept to a minimum. 
+
+The app itself asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
+
+The user will be greeted by a welcome image that includes the app name. 
+
+Following this, an introductory section will set out some basic guidance about how to use the app. 
+
+This section will be followed by another section containing the Google Maps API allowing users to select their destination. 
+
+The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
+
+This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") provides a rough idea of the look of the final product. 
+
+
+## Features
+
+The app uses the Google Maps and Google Places API to provide search results about accommodation, places of interest and places to eat. 
+
+### Features left to implement 
+
+...
+
 
 ## Testing
 
-...
+How was the outcome in the user story achieved?
+
+Bugs…selecting a place to dine without choosing a city; revert to default.
+
+Alternating between different options (stay, dine, visit). Changing city and erasing list. 
+
+Adding the same option multiple times. 
+
+Browser compatibility 
 
 ## Deployment
 
-...
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/...git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+ 
 ## Credits
 
-...
+### Media
+
+The photo at the top of the app was taken from unsplash, a stock image library. 
+
+### Acknowledgements
+
+[SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo “SVG mouse”)
+
+The planning section’s map functionality was modelled after the code contained in the Google Maps API documentation, specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 
+
+[google maps documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch “google maps documentation”)
+
 
