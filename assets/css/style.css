@@ -11,13 +11,20 @@ h1, h2 {
 }
 
 
+
+
 .myGif {
     margin: 0 auto;
+    /*border: 10px solid #f6d9bc;*/
 }
 .intro {
     font-size: 35px;
     padding: 70px;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
 }
 
 .sleeve {
@@ -28,9 +35,14 @@ h1, h2 {
     height: 100vh;
 }
 
-/*.thePlanner {*/
-/*  height: calc(100vh - 1rem);*/
-/*}*/
+.thePlanner {
+    background-color: #fafafa;
+    color: #1a1a1a;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 70px;
+    margin-bottom: 10px;
+}
 
 #myUL {
     list-style: none;
@@ -38,7 +50,7 @@ h1, h2 {
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #474747;
     color: #fafafa;
     height: 75px;
     padding-top: 20px;
@@ -91,7 +103,7 @@ top: 0;
 left: 0;
 border-style: solid;
 border-width: 200px 400px 0 0;
-border-color: #bce7f6 transparent transparent transparent;
+border-color:  #f6d9bc transparent transparent transparent;
 opacity: 0.5;
 }
 
@@ -99,11 +111,11 @@ opacity: 0.5;
 width: 0;
 height: 0;
 position: absolute;
-bottom: 0;
+top: calc(100vh - 200px);
 right: 0;
 border-style: solid;
 border-width: 0 0 200px 400px;
-border-color: transparent transparent #e7bcf6 transparent;
+border-color: transparent transparent #bce7f6 transparent;
 opacity: 0.5;
 }
 
@@ -114,8 +126,12 @@ position: absolute;
 top: 100vh;
 right: 0;
 border-style: solid;
-border-width: 0 400px 200px 0;
-border-color: transparent #e7bcf6 transparent transparent;
+border-width: 0 430px 100px 0;
+border-color: transparent #bce7f6 transparent transparent;
+}
+
+.blurb {
+    margin-bottom: 50px;
 }
 
 /*hotel results*/
@@ -142,9 +158,9 @@ border-color: transparent #e7bcf6 transparent transparent;
 }
       
 #controls {
-   color: #fafafa;
+   color: #474747;
     font-size: 20px;
-    background-color: #474747;
+    background-color: #fafafa;
 }
       
 #autocomplete {
@@ -199,26 +215,27 @@ border-color: transparent #e7bcf6 transparent transparent;
      font-family: "Righteous";
      width: 100%;
      font-size: 50px;
+     background-color: #bce7f6;
      transition: background-color 0.5s ease-in-out;
  }
  
  #stay:hover, #dine:hover, #visit:hover {
-     background-color: violet;
+     background-color: #f6d9bc;
      color: #fafafa;
  }
  
  
- #stay {
- background-color: #ff8000;
- }
+ /*#stay {*/
+ /*background-color: #ff8000;*/
+ /*}*/
  
- #dine {
-     background-color: #00bfff;
- }
+ /*#dine {*/
+ /*    background-color: #00bfff;*/
+ /*}*/
  
- #visit {
-     background-color: #00ff80;
- }
+ /*#visit {*/
+ /*    background-color: #00ff80;*/
+ /*}*/
  
  .row {
      padding: 10px;
@@ -261,10 +278,11 @@ border-color: transparent #e7bcf6 transparent transparent;
 	/*left: -380px;*/
 	/*width: 30%;*/
 	background-color: #ff8000;
+	background-color: #bce7f6;
 	color: #fafafa;
 	/*animation: slide 0.8s linear;*/
 	/*animation-fill-mode: forwards;*/
-	margin-top: 120px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
@@ -275,6 +293,7 @@ border-color: transparent #e7bcf6 transparent transparent;
 	/*left: -380px;*/
 	/*width: 40%;*/
 	background-color: #00bfff;
+	background-image: linear-gradient(#bce7f6, #e7bcf6);
 	color: #fafafa;
 	/*animation: slideIn 1s linear;*/
 	/*animation-fill-mode: forwards;*/
@@ -287,6 +306,7 @@ border-color: transparent #e7bcf6 transparent transparent;
     font-size: 75px;
     /*width: 0px;*/
 	background-color: #00ff80;
+	background-color: #e7bcf6;
 	color: #fafafa;
 	/*margin-bottom: 5px;*/
 	/*animation: slideIn 1.2s linear;*/
@@ -515,7 +535,7 @@ border-color: transparent #e7bcf6 transparent transparent;
 }
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-height: 640px){
     .sleeve {
         height: calc(100vh - 1rem);
     }

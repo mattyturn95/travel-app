@@ -259,7 +259,7 @@ const addResult =(result, i)=> {
   var markerIcon = MARKER_PATH + markerLetter + '.png';
 
   var tr = document.createElement('tr');
-  tr.style.backgroundColor = (i % 2 === 0 ? '#1a1a1a' : '#303030');
+  tr.style.backgroundColor = (i % 2 === 0 ? '#bce7f6' : '#f6d9bc');
   tr.style.color = "#fafafa";
   tr.onclick = function() {
     google.maps.event.trigger(markers[i], 'click');
