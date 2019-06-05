@@ -10,8 +10,10 @@
 <body>
  
 	<div class="sleeve">
+		<div class="triangleOne"></div>
 			<div class="section">
 				<div class="svg-container">
+					
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="315" height="350" xmlns:xlink="http://www.w3.org/1999/xlink">
 				    	<polygon class="hex" points="300,150 300,215 150,280 0,215 0,85 150,20 300,85 300,150 0,150" fill="violet" fill-opacity="0.5" stroke="#fafafa" stroke-width="10" transform="translate(10)"></polygon>
 						    <text x="160" y="130" 
@@ -42,12 +44,14 @@
 				</g>
 			</svg>
 		</div>
+		<div class="triangleTwo"></div>
 	</div>
 
 	<div class="container-fluid intro">
-		<div class="number1"><span>Plan</span></div>
-		<div class="number2"><span>Your</span></div>
-		<div class="number3"><span>Next Trip</span></div>
+		<div class="triangleThree"></div>
+		<div class="number1 text-center hidden"><span>Plan</span></div>
+		<div class="number2 text-center hidden"><span>Your</span></div>
+		<div class="number3 text-center hidden"><span>Trip</span></div>
 		<div class="row introText">
 			<div class="col-sm-12">
 				<span>Welcome!</span>
@@ -56,16 +60,21 @@
 				for a trip and record them in an itinerary. Choose from one of twelve countries 
 				or select all for every other country and find great places to visit, stay and dine! 
 				</p>
-					<div id="wrapD3Cube">
-					    <div id="D3Cube">
-					        <div id="side1"></div>
-					        <div id="side2"><span>ut</span></div>
-					        <div id="side3">eR</div>
-					        <div id="side4">ep</div>
-					        <div id="side5">ro</div>
-					        <div id="side6"></div>
-				    	</div>
-					</div>
+					<!--<div id="wrapD3Cube">-->
+					<!--    <div id="D3Cube">-->
+					<!--        <div id="side1"></div>-->
+					<!--        <div id="side2"><span>ut</span></div>-->
+					<!--        <div id="side3">eR</div>-->
+					<!--        <div id="side4">ep</div>-->
+					<!--        <div id="side5">ro</div>-->
+					<!--        <div id="side6"></div>-->
+				 <!--   	</div>-->
+					<!--</div>-->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="../assets/images/ezgif.com-optimize.gif">
 			</div>
 		</div>
 		
@@ -130,6 +139,7 @@
 			<div class="col-xs-12 col-lg-4 ">
 				<div id="listing">
 					<table id="resultsTable">
+						<h2>Results</h2>
 			    		<tbody id="results"></tbody>
 			  		</table>
 				</div>
@@ -205,8 +215,10 @@
 	
 	<footer class="text-center">@copyright 2019</footer>
 	
-<script src="./libraries/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcf5UynM1en11ElWohe4oyPwIFC_D93Gk&libraries=places&callback=initMap" async defer></script>
    

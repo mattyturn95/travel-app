@@ -1,6 +1,6 @@
 body {
 	/*background-color: #FFD300;*/
-	background-color: #474747;
+	background-color: #bce7f6;
 	font-family: "Cabin";
 }
 
@@ -66,9 +66,52 @@ footer {
     color: #fafafa;
 }
 
+.modal-content {
+    color: #474747;
+}
+
 #map {
 	height: 500px;
 	width: 100%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.triangleOne {
+width: 0;
+height: 0;
+position: absolute;
+top: 0;
+left: 0;
+border-style: solid;
+border-width: 200px 400px 0 0;
+border-color: #bce7f6 transparent transparent transparent;
+opacity: 0.5;
+}
+
+.triangleTwo {
+width: 0;
+height: 0;
+position: absolute;
+bottom: 0;
+right: 0;
+border-style: solid;
+border-width: 0 0 200px 400px;
+border-color: transparent transparent #e7bcf6 transparent;
+opacity: 0.5;
+}
+
+.triangleThree {
+width: 0;
+height: 0;
+position: absolute;
+top: 100vh;
+right: 0;
+border-style: solid;
+border-width: 0 400px 200px 0;
+border-color: transparent #e7bcf6 transparent transparent;
 }
 
 /*hotel results*/
@@ -79,7 +122,7 @@ footer {
     overflow: auto;
     cursor: pointer;
     overflow-x: hidden;
-    background-color: gray;
+    background-color: #fafafa;
 }
       
 #findhotels {
@@ -122,6 +165,7 @@ footer {
 #resultsTable {
         border-collapse: collapse;
         width: 100%;
+        
 }
 
 #rating {
@@ -208,63 +252,67 @@ footer {
 }
 
 .number1 {
+    font-family: 'Righteous';
     font-size: 75px;
-	left: -380px;
-	width: 30%;
+	/*left: -380px;*/
+	/*width: 30%;*/
 	background-color: #ff8000;
 	color: #fafafa;
-	animation: slide 0.8s linear;
-	animation-fill-mode: forwards;
-	margin-bottom: 5px;
+	/*animation: slide 0.8s linear;*/
+	/*animation-fill-mode: forwards;*/
+	margin-top: 120px;
+	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
 .number2 {
+    font-family: 'Righteous';
     font-size: 75px;
-	left: -380px;
-	width: 40%;
+	/*left: -380px;*/
+	/*width: 40%;*/
 	background-color: #00bfff;
 	color: #fafafa;
-	animation: slideIn 1s linear;
-	animation-fill-mode: forwards;
-	margin-bottom: 5px;
+	/*animation: slideIn 1s linear;*/
+	/*animation-fill-mode: forwards;*/
+	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
 .number3 {
+    font-family: 'Righteous';
     font-size: 75px;
-    width: 0px;
+    /*width: 0px;*/
 	background-color: #00ff80;
 	color: #fafafa;
-	margin-bottom: 5px;
-	animation: slideIn 1.2s linear;
-	animation-fill-mode: forwards;
+	/*margin-bottom: 5px;*/
+	/*animation: slideIn 1.2s linear;*/
+	/*animation-fill-mode: forwards;*/
 	border-bottom: 5px solid white;
 	margin-bottom: 70px;
 }
 
 
-@keyframes slideIn {
-	from {
-		width: 0;
-	}
+/*@keyframes slideIn {*/
+/*	from {*/
+/*		width: 0;*/
+/*	}*/
 
-	to {
-		width: 500px;
-	}
+/*	to {*/
+/*		width: 500px;*/
+/*	}*/
 
-}
+/*}*/
 
-@keyframes slide {
-	from {
-		transform: translate(-400px);
-	}
+/*@keyframes slide {*/
+/*	from {*/
+/*		transform: translate(-400px);*/
+/*	}*/
 
-	to {
-		transform: translate(0);
-	}
+/*	to {*/
+/*		transform: translate(0);*/
+/*	}*/
 
-}
+/*}*/
 
 
 
@@ -458,9 +506,18 @@ footer {
 
 /* mouse svg ends */
 
+.hidden {
+    opacity: 0;
+}
+
+
 @media screen and (max-width: 640px){
     .sleeve {
         height: calc(100vh - 1rem);
+    }
+    
+    .triangleThree {
+        top: calc(100vh - 1rem);
     }
 }
 
