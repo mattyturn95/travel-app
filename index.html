@@ -53,8 +53,8 @@
 				<span>Welcome!</span>
 				<p> Plan your next trip with routeRep! The routeRep app harnesses the power of
 				the Google Maps API to provide you with a quick and seamless way to make plans 
-				for a trip and record them in an itinerary. Choose from one of ten european cities
-				and find great places to visit, stay and dine! 
+				for a trip and record them in an itinerary. Choose from one of twelve countries 
+				or select all for every other country and find great places to visit, stay and dine! 
 				</p>
 					<div id="wrapD3Cube">
 					    <div id="D3Cube">
@@ -95,6 +95,13 @@
 					    <option value="pt">Portugal</option>
 					    <option value="us" selected>U.S.A.</option>
 					    <option value="uk">United Kingdom</option>
+					    <!--<option value="tk">Tokyo</option>-->
+					    <!--<option value="re">Ireland</option>-->
+					    <!--<option value="gr">Greece</option>-->
+					    <!--<option value="bl">Belgium</option>-->
+					    <!--<option value="pt">Norway</option>-->
+					    <!--<option value="mo">Morocco</option>-->
+					    <!--<option value="ch">China</option>-->
 					  </select>
 					</div>
 				</div>
@@ -104,9 +111,6 @@
 	    			</div>
 	    		</div>
 			</div>
-			
-		
-		
 			
 		    <div class="row select">
 	    		<div class="col-4">
@@ -174,9 +178,32 @@
 		<div class="row">
 			<div class="col"><ul id="myUL"></ul></div>
 		</div>
+		<div class="row">
+			<div class="col-2 offset-5">
+				<button id="saveBtn" class="btn-lg" data-toggle="modal" data-target="#myModal">Save Itinerary</button>
+			</div>
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        Save functionality currently unavailable. Sorry about that!
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
 	</div>
 	
-	<footer>@copyright 2019</footer>
+	<footer class="text-center">@copyright 2019</footer>
 	
 <script src="./libraries/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>

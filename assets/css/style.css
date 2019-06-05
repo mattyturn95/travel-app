@@ -1,21 +1,19 @@
-/*html {*/
-/*    scroll-behavior: smooth;*/
-/*}*/
-
 body {
 	/*background-color: #FFD300;*/
-	background-color: #fafafa;
+	background-color: #474747;
 	font-family: "Cabin";
 }
 
 h1, h2 {
 	margin: 0;
 	font-family: "Righteous";
+	padding: 0;
 }
 
 .intro {
     font-size: 35px;
     padding: 70px;
+    color: #fafafa;
 }
 
 .sleeve {
@@ -38,7 +36,8 @@ h1, h2 {
 footer {
     background-color: #1a1a1a;
     color: #fafafa;
-    height: 100px;
+    height: 75px;
+    padding-top: 20px;
 }
 
 #myUL>li {
@@ -49,17 +48,30 @@ footer {
     padding: 20px;
 }
 
+#myUL>li:hover {
+    background-color: green;
+}
+
+#myUL>li.checked {
+    text-decoration: line-through;
+}
+
+#saveBtn {
+    font-family: 'Righteous';
+    transition: background-color 1s ease-in-out;
+}
+
+#saveBtn:hover {
+    background-color: green;
+    color: #fafafa;
+}
+
 #map {
 	height: 500px;
 	width: 100%;
 }
 
-
-
 /*hotel results*/
-/*#info-content {*/
-/*}*/
-
 
 #listing { 
     height: 500px;
@@ -83,9 +95,9 @@ footer {
 }
       
 #controls {
-    background-color: #fff;
+   color: #fafafa;
     font-size: 20px;
-    background-color: #fafafa;
+    background-color: #474747;
 }
       
 #autocomplete {
@@ -139,6 +151,7 @@ footer {
      font-family: "Righteous";
      width: 100%;
      font-size: 50px;
+     transition: background-color 0.5s ease-in-out;
  }
  
  #stay:hover, #dine:hover, #visit:hover {
@@ -164,7 +177,8 @@ footer {
  }
  
 #itinerary {
-     background-color: #ffffff;
+     color: #fafafa;
+     background-color: lightgray;
      border-radius: 5px;
  }
  
@@ -251,6 +265,8 @@ footer {
 	}
 
 }
+
+
 
 .introText {
     /*padding: 20px;*/
@@ -404,7 +420,7 @@ footer {
 
 .scroll-link {
   position: absolute;
-  bottom: 1rem;
+  bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
   /*margin: 0 47.5%;*/
