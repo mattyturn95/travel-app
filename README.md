@@ -15,7 +15,7 @@ Stream Two Project: Interactive Frontend Development - Code Institute
 
 ## Demo
 
-...
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
 
 ## Technologies
 
