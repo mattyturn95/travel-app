@@ -15,7 +15,6 @@ h1, h2 {
 
 .myGif {
     margin: 0 auto;
-    /*border: 10px solid #f6d9bc;*/
 }
 .intro {
     font-size: 35px;
@@ -58,6 +57,7 @@ footer {
 
 #myUL>li {
     background-color: #00bfff;
+    background-color: #e7bcf6;
     color: #fafafa;
     border: 5px solid #fafafa;
     font-size: 30px;
@@ -65,7 +65,7 @@ footer {
 }
 
 #myUL>li:hover {
-    background-color: green;
+    background-color: #bcf6bc;
 }
 
 #myUL>li.checked {
@@ -74,11 +74,10 @@ footer {
 
 #saveBtn {
     font-family: 'Righteous';
-    transition: background-color 1s ease-in-out;
 }
 
 #saveBtn:hover {
-    background-color: green;
+    background-color: #bcf6bc;
     color: #fafafa;
 }
 
@@ -267,11 +266,6 @@ border-color: transparent #bce7f6 transparent transparent;
 
 /*cover*/
 
-.coverContainer {
-	/*background-color: #FFD300;*/
-	font-family: "Righteous";
-}
-
 .number1 {
     font-family: 'Righteous';
     font-size: 75px;
@@ -340,14 +334,6 @@ border-color: transparent #bce7f6 transparent transparent;
 
 
 
-.introText {
-    /*padding: 20px;*/
-    /*color: #fafafa;*/
-    /*background-color: #1a1a1a;*/
-    /*border-bottom-left-radius: 100%;*/
-    /*border-bottom-right-radius: 100%;*/
-}
-
 
 
 .section {
@@ -376,117 +362,6 @@ border-color: transparent #bce7f6 transparent transparent;
 		opacity: 1;
 	}
 }
-
-
-/*cube code*/
-
-#wrapD3Cube {
-    /*width: 350px;*/
-    height: 313px;
-    margin-top: 50px;
-    font-size: 85px;
-    font-family: "Righteous";
-}
-
-#D3Cube {
-    width: 112px;
-    height: 112px;
-    top: 50px;
-    transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
-    -moz-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
-    -webkit-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
-    margin: auto;
-    position: relative;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    
-}
-
-#D3Cube > div {
-    position: absolute;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    width: 112px; /*or 162*/
-    height: 112px;
-    float: left;
-    overflow: hidden;
-}
-
-#side1 {
-    transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #FFF;
-    color: #fafafa;
-    /*opacity: 0.85;*/
-}
-
-#side2 {
-    transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color:  #ff8000;
-    color: #fafafa;
-    /*color: #FFD300;*/
-}
-
-#side3 {
-    transform: translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #00ff80;
-    color: #fafafa;
-}
-
-#side4 {
-    transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #ed3030;
-    color: #fafafa;
-}
-
-#side5 {
-    transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #00bfff;
-    color: #fafafa;
-}
-
-#side6 {
-    transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -moz-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    -webkit-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
-    background-color: #f2f215;
-    color: #fafafa;
-    
-    /*background-color: #1a1a1a;*/
-    /*border: 5px solid #fafafa;*/
-    /*color: #FFD300;*/
-}
-
-#D3Cube {
-    -webkit-animation: cubeRotation 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: cubeRotation 5s infinite;
-}
-
-@-webkit-keyframes cubeRotation {
-    0%   {  -webkit-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);   }
-    50%   { -webkit-transform: rotateX(-22deg) rotateY(-128deg) rotateZ(0deg);  }
-    100%   {    -webkit-transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);  }
-}
-@keyframes cubeRotation {
-    0%   {  transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);   }
-    50%   { transform: rotateX(-22deg) rotateY(-238deg) rotateZ(0deg);  }
-    100%   {    transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);  }
-}
-
 
 /*mouse svg*/
 
