@@ -99,7 +99,7 @@ footer {
     cursor: pointer;
     overflow-x: hidden;
     background-color: lightgray;
-    color: #fafafa;
+    color: #1a1a1a;
 }
       
 #findhotels {
@@ -202,7 +202,7 @@ table {
 /*Itinerary css*/
 
 #itinerary {
-    color: #fafafa;
+    color: #1a1a1a;
     background-color: lightgray;
     border-radius: 5px;
  }
@@ -225,7 +225,7 @@ table {
 #myUL>li {
     background-color: #00bfff;
     background-color: #e7bcf6;
-    color: #fafafa;
+    color: #1a1a1a;
     border: 5px solid #fafafa;
     font-size: 30px;
     padding: 20px;
@@ -241,6 +241,7 @@ table {
 
 #saveBtn {
     font-family: 'Righteous';
+    width: 100%;
 }
 
 #saveBtn:hover {

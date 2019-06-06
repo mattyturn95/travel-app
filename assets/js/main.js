@@ -260,7 +260,7 @@ const addResult =(result, i)=> {
 
   var tr = document.createElement('tr');
   tr.style.backgroundColor = (i % 2 === 0 ? '#bce7f6' : '#f6d9bc');
-  tr.style.color = "#fafafa";
+  tr.style.color = "#1a1a1a";
   tr.onclick = function() {
     google.maps.event.trigger(markers[i], 'click');
   };
