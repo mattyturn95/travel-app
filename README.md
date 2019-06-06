@@ -76,15 +76,15 @@ Marker images from Maps/Places API blocked, visible incognito - cookie issue?
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) in Google Dev tools(Galaxy S5, Pixel 2/Pixel 2 XL, iphone 5/SE/6/7/8 Plus, X, ipad and ipad Pro) and on multiple devices, mobile (iPhone 4, 5, 7: , OnePlus 6,Chrome and Safari) and otherwise(Macbook Air and Mac Desktop) to ensure compatibility and responsiveness.
 When testing the site on a OnePlus 6, I noticed that the second Triangle ended in the corner of the screen rather than the corner of the image. As a result, it appeared to be floating partway up the side of the image. Setting the bottom property to zero did not resolve the issue.
-I fixed this issue by using a calc value for this triangle's top property in css. The triangle's height was 200px and the background image's height was 100vh, so I set the top property to calc(100vh - 200px), placing the triangle the correct distance from the bottom of the image. 
+I fixed this issue by using a calc value for this triangle's top property in css. The triangle's height was 200px and the background image's height was 100vh, so I set ```top``` to ```calc(100vh - 200px)```, placing the triangle the correct distance from the bottom of the image. 
 
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+This site is hosted using GitHub pages, deployed directly from the master branch. Under the settings tab of the repository in the GitHub Pages section, the source was set to master branch.  Changes committed in the editor will update the site on GitHub pages accordingly. In order for the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/stiofanEimeid/travel-app.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
- 
+In order to run a repository locally, the repository must be cloned. Copy the address ```https://github.com/stiofanEimeid/travel-app.git```, found on the main page of the repository after clicking the clone or download button. In your editor, open the terminal. Type git clone and paste the copied address. Press enter and the local clone will be created. In order to disconnect from this repository, type git remote rm into the terminal.
+
 ## Credits
 
 ### Media
