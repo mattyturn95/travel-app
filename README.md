@@ -23,7 +23,7 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 ## Demo
 
-[demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
 
 
 ## UX
