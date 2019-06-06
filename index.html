@@ -27,14 +27,11 @@
 <body>
  
 	<div class="sleeve">
-		
 		<!--Triangle div is first of three that are less than opaque and act as lens-->
 		<div class="triangleOne"></div>
 			<div class="section">
 				<div class="svg-container">
-					
 					<!--routeRep logo - consists of one svg and two separate text elements-->
-					
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="315" height="350" xmlns:xlink="http://www.w3.org/1999/xlink">
 				    	<polygon class="hex" points="300,150 300,215 150,280 0,215 0,85 150,20 300,85 300,150 0,150" fill="violet" fill-opacity="0.5" stroke="#fafafa" stroke-width="10" transform="translate(10)"></polygon>
 						    <text x="160" y="130" 
@@ -195,47 +192,47 @@
 					</div>
 			</div>
 		</div>
-	<!--</div>-->
 
-	<div  id="itinerary">
-		<div class="row">
-			<div class="col"><h2>Your Itinerary</h2></div>
-		</div>
-		<div class="row">
-			<!--Placeholder text disappears after a place is added from the search results above-->
-			<div id="filler" class="col"><span>Nothing here yet. Fill it up!</span></div>
-		</div>
-		<div class="row">
-			<!--Added places appear here-->
-			<div class="col"><ul id="myUL"></ul></div>
-		</div>
-		<!--Modal appears when user tries to save itinerary-->
-		<div class="row">
-			<div class="col-2 offset-5">
-				<button id="saveBtn" class="btn-lg" data-toggle="modal" data-target="#myModal">Save Itinerary</button>
+		<div  id="itinerary">
+				<div class="row">
+					<div class="col"><h2>Your Itinerary</h2></div>
+				</div>
+				<div class="row">
+					<!--Placeholder text disappears after a place is added from the search results above-->
+					<div id="filler" class="col"><span>Nothing here yet. Fill it up!</span></div>
+				</div>
+				<div class="row">
+					<!--Added places appear here-->
+					<div class="col"><ul id="myUL"></ul></div>
+				</div>
+				<!--Modal appears when user tries to save itinerary-->
+				<div class="row">
+					<div class="col-2 offset-5">
+						<button id="saveBtn" class="btn-lg" data-toggle="modal" data-target="#myModal">Save Itinerary</button>
+					</div>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        Save functionality currently unavailable. Sorry about that!
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
 			</div>
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <h5 class="modal-title" id="exampleModalLabel">Error</h5>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          <span aria-hidden="true">&times;</span>
-			        </button>
-			      </div>
-			      <div class="modal-body">
-			        Save functionality currently unavailable. Sorry about that!
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			      </div>
-			    </div>
-			  </div>
-			</div>
 		</div>
 	</div>
-	</div>
-	</div>
+	
 	<footer class="text-center">@copyright 2019</footer>
 	
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
