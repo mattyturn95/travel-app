@@ -23,7 +23,7 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 ## Demo
 
-![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+[demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
 
 
 ## UX
@@ -58,7 +58,8 @@ In the future, I would like users to have the ability to save their composed iti
 
 ## Testing
 
-The user is prompted to choose one of twelve countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world.
+The user is prompted to choose one of twelve countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world. 
+Clicking on the span containing the plus symbol in the results table will add that result to the itinerary. Clicking on the cross contained in the span symbol will remove that item while clicking the name itself will toggle a strike-through css property on the relevant name.
 
 If the user clicks the visit, stay or dine button without first selecting a country and/or city, Montluçon, France will act as the default city.
 
@@ -67,11 +68,13 @@ Changing city does not affect items contained in the itinerary although users ma
 
 If the user wishes to choose a city located outside of the twelve featured in the dropdown menu, they may choose the "all" option from the same menu.
 
-The user may add the same option multiple times. Duplicates, mistakes or choices no longer desired may be deleted by clicking on the close span appened to the end of each list item.
+The user may add the same option multiple times. Duplicates, mistakes or choices no longer desired may be deleted by clicking on the close span appeneded to the end of each list item.
 
 If the user clicks the save button, whether or not the list is populated a modal will be displayed. The modal gives the user an error message and that the site is unable to save the list.
 
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) in Google Dev tools(Galaxy S5, Pixel 2/Pixel 2 XL, iphone 5/SE/6/7/8 Plus, X, ipad and ipad Pro) and on multiple mobile devices (iPhone 4, 5, 7: , OnePlus 6,Chrome and Safari) to ensure compatibility and responsiveness.
+Marker images from Maps/Places API blocked, visible incognito - cookie issue?
+
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) in Google Dev tools(Galaxy S5, Pixel 2/Pixel 2 XL, iphone 5/SE/6/7/8 Plus, X, ipad and ipad Pro) and on multiple devices, mobile (iPhone 4, 5, 7: , OnePlus 6,Chrome and Safari) and otherwise(Macbook Air and Mac Desktop) to ensure compatibility and responsiveness.
 When testing the site on a OnePlus 6, I noticed that the second Triangle ended in the corner of the screen rather than the corner of the image. As a result, it appeared to be floating partway up the side of the image. Setting the bottom property to zero did not resolve the issue.
 I fixed this issue by using a calc value for this triangle's top property in css. The triangle's height was 200px and the background image's height was 100vh, so I set the top property to calc(100vh - 200px), placing the triangle the correct distance from the bottom of the image. 
 
@@ -80,17 +83,17 @@ I fixed this issue by using a calc value for this triangle's top property in css
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/...git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/stiofanEimeid/travel-app.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
  
 ## Credits
 
 ### Media
 
-The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. It was later compressed using this site [compressjpeg.com](https://compressjpeg.com/ "compressjpeg.com")
+The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. It was later compressed using [compressjpeg.com](https://compressjpeg.com/ "compressjpeg.com").
 
 ### Acknowledgements
 
-The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of the following: [css animations](https://www.creativebloq.com/inspiration/css-animation-examples "css animations")
+The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of this [css animations page](https://www.creativebloq.com/inspiration/css-animation-examples "css animations page")
 which displayed code this codepen: [SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse").
 
 The planning section’s map functionality was modelled after the code contained in the [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "Google Maps API documentation"), 
@@ -103,6 +106,6 @@ The triangle divs used to create lens effects were generated using this [triangl
 
 The GIF demonstrating how to use the planner was shot with the capture screen feature of Quicktime and converted to GIF format using this site, [ezgif.com](https://ezgif.com/ "ezgif.com").
 
-The site's favicon was generated using this site, [favicon-generator.org](https://www.favicon-generator.org/ "favicon-generator.org").
+The site's favicon was generated using [favicon-generator.org](https://www.favicon-generator.org/ "favicon-generator.org").
 
 Text gradient code was found at [css-tricks](https://css-tricks.com/snippets/css/gradient-text/ "css tricks").
