@@ -17,8 +17,6 @@ Users may then add these results to an itinerary. They may then continue to edit
 7. Google Places
 8. GoogleFonts
 9. FontAwesome(v5.8.2)
-10. Ezgif(Gif-maker)
-11. Favicon-Generator
 
 
 ## Demo
