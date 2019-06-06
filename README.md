@@ -97,4 +97,4 @@ The GIF demonstrating how to use the planner was shot with the capture screen fe
 
 The site's favicon was generated using this site, [favicon-generator.org](https://www.favicon-generator.org/ "favicon-generator.org").
 
-
+Text gradient code was found at [css-tricks](https://css-tricks.com/snippets/css/gradient-text/ "css tricks").

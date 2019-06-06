@@ -1,3 +1,4 @@
+//Google code begins
 var map, places, infoWindow;
 var markers = [];
 var autocomplete;
@@ -154,13 +155,15 @@ function search() {
 
 }, false);
 
-//dine
+//dine (goodle code modified to search for restaurants)
+
+
 
 dine.addEventListener("click", function search() {
   
     var search = {
     bounds: map.getBounds(),
-    types: ["restaurant", "bar"]
+    types: ["restaurant"]
   };
 
     places.nearbySearch(search, function(results, status) {
@@ -185,7 +188,7 @@ dine.addEventListener("click", function search() {
 }, false);
 
 
-//Places of Interest
+//Places of Interest (goodle code modified to search for places of interest)
 
 visit.addEventListener("click", function search() {
     var search = {
@@ -259,7 +262,7 @@ const addResult =(result, i)=> {
   var markerIcon = MARKER_PATH + markerLetter + '.png';
 
   var tr = document.createElement('tr');
-  tr.style.backgroundColor = (i % 2 === 0 ? '#bce7f6' : '#f6d9bc');
+  tr.style.backgroundColor = (i % 2 === 0 ? '#bce7f6' : '#f6d9bc'); //colour scheme changed
   tr.style.color = "#1a1a1a";
   tr.onclick = function() {
     google.maps.event.trigger(markers[i], 'click');
@@ -278,7 +281,9 @@ const addResult =(result, i)=> {
   tr.appendChild(nameTd);
   results.appendChild(tr);
   
-  // Add button
+  //break in google code
+  
+  // Add button 
   
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u002B");
@@ -313,6 +318,8 @@ const addResult =(result, i)=> {
 , false);
 
 };
+
+//google code begins again
    
 
 const clearResults = () => {
@@ -393,7 +400,9 @@ list.addEventListener('click', function(e) {
   }
 }, false);
 
-// intro fadeIn
+//end of google code
+
+// intro fadeIn (tcloniger code)
 
 $(document).ready(function() {
     

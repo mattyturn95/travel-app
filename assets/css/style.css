@@ -9,6 +9,13 @@ h1, h2 {
 	padding: 0;
 }
 
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#bce7f6, #e7bcf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .myGif {
     margin: 0 auto;
@@ -109,15 +116,22 @@ footer {
 }
 
 #locationField {
+    font-family: "Righteous";
     height: 25px;
     background-color: #fafafa;
+    color: #474747;
     font-size: 25px;
+ 
 }
       
 #controls {
+    font-family: "Righteous";
     color: #474747;
     font-size: 25px;
-    background-color: #fafafa;
+    /*background-image: linear-gradient(white, #fafafa);*/
+    padding: 5px;
+    border: #fafafa solid 2px;
+    border-radius: 5px;
 }
       
 #autocomplete {
@@ -214,7 +228,7 @@ table {
 
 #itinerary {
     color: #1a1a1a;
-    background-color: lightgray;
+    background-color: #f6d9bc;
     border-radius: 5px;
  }
  
@@ -242,7 +256,7 @@ table {
 }
 
 #myUL>li:hover {
-    background-color: #fafafa;
+    background-color: #bce7f6;
     color: #1a1a1a;
 }
 
@@ -253,6 +267,7 @@ table {
 #saveBtn {
     font-family: 'Righteous';
     width: 100%;
+    outline: 0;
 }
 
 #saveBtn:hover {
