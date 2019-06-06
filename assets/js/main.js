@@ -1,7 +1,7 @@
 var map, places, infoWindow;
 var markers = [];
 var autocomplete;
-var countryRestrict = {'country': 'us'};
+var countryRestrict = {'country': 'fr'};
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 var stay = document.getElementById("stay");
@@ -67,8 +67,8 @@ var countries = {
 
 function initMap () {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: countries['us'].zoom,
-    center: countries['us'].center,
+    zoom: countries['fr'].zoom,
+    center: countries['fr'].center,
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
@@ -278,12 +278,15 @@ const addResult =(result, i)=> {
   tr.appendChild(nameTd);
   results.appendChild(tr);
   
+  // Add button
+  
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u002B");
   span.className = "add";
   span.appendChild(txt);
   tr.appendChild(span);
   
+  //Add place li to itinerary with place name included
 
   
   span.addEventListener("click", function () {

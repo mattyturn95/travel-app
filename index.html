@@ -10,9 +10,13 @@
 <body>
  
 	<div class="sleeve">
+		
+		<!--Triangle div is first of three that are less than opaque and act as lens-->
 		<div class="triangleOne"></div>
 			<div class="section">
 				<div class="svg-container">
+					
+					<!--routeRep logo - consists of one svg and two separate text elements-->
 					
 					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="315" height="350" xmlns:xlink="http://www.w3.org/1999/xlink">
 				    	<polygon class="hex" points="300,150 300,215 150,280 0,215 0,85 150,20 300,85 300,150 0,150" fill="violet" fill-opacity="0.5" stroke="#fafafa" stroke-width="10" transform="translate(10)"></polygon>
@@ -35,6 +39,8 @@
 					</svg>
 				</div>
 			</div>
+			
+		<!--SVG mouse code-->
 	
 		<div class="scroll-link">
 			<svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
@@ -44,19 +50,20 @@
 				</g>
 			</svg>
 		</div>
+		<!--Second of triangle lens, sits on top of third lens and shares the same colour to create a bigger triangle lens-->
 		<div class="triangleTwo"></div>
 	</div>
 
 	<div class="container-fluid">
 		<div class="intro">
+		<!--Third and final triangle lens-->
 		<div class="triangleThree"></div>
+		<!--Divs fade in on scroll-->
 		<div class="number1 text-center hidden"><span>Plan</span></div>
 		<div class="number2 text-center hidden"><span>Your</span></div>
 		<div class="number3 text-center hidden"><span>Trip</span></div>
 		<div class="row introText">
 			<div class="col-sm-12">
-				<span>Welcome!</span>
-				<br>
 				<p class="blurb"> Plan your next trip with routeRep! The routeRep app harnesses the power of
 				the Google Maps API to provide you with a quick and seamless way to make plans 
 				for a trip and record them in an itinerary. 
@@ -68,14 +75,13 @@
 			</div>
 		</div>
 		<div class="row">
+			<!--Demo gif provides a walkthrough of how to use the planner-->
 			<div class="myGif">
 				<img src="assets/images/ezgif.com-optimize.gif">
 			</div>
 		</div>
 		</div>
 	</div>
- 
-	
 		<div class="container-fluid">
 			<div class="thePlanner">
 			<div class="row select">
@@ -84,13 +90,14 @@
 	  		<div class="row select">
 				<div class="col-6">
 					<div id="controls">
+						<!--Drop down menu to select one of twelve countries or no specific country -->
 					<label for="country">Choose a country...</label>
 						<select id="country">
 					    <option value="all">All</option>
 					    <option value="au">Australia</option>
 					    <option value="br">Brazil</option>
 					    <option value="ca">Canada</option>
-					    <option value="fr">France</option>
+					    <option value="fr" selected>France</option>
 					    <option value="de">Germany</option>
 					    <option value="mx">Mexico</option>
 					    <option value="nz">New Zealand</option>
@@ -98,25 +105,20 @@
 					    <option value="za">South Africa</option>
 					    <option value="es">Spain</option>
 					    <option value="pt">Portugal</option>
-					    <option value="us" selected>U.S.A.</option>
+					    <option value="us">U.S.A.</option>
 					    <option value="uk">United Kingdom</option>
-					    <!--<option value="tk">Tokyo</option>-->
-					    <!--<option value="re">Ireland</option>-->
-					    <!--<option value="gr">Greece</option>-->
-					    <!--<option value="bl">Belgium</option>-->
-					    <!--<option value="pt">Norway</option>-->
-					    <!--<option value="mo">Morocco</option>-->
-					    <!--<option value="ch">China</option>-->
 					  </select>
 					</div>
 				</div>
 				<div class="col-6">
+					<!--Search is confined to chosen country if one chosen and 'all' option not selected-->
 	    			<div id="locationField" >
 	    				<input id="autocomplete" placeholder="Enter a city" type="text" />
 	    			</div>
 	    		</div>
 			</div>
 			
+			<!--Visit, stay and dine buttons-->
 		    <div class="row select">
 	    		<div class="col-4">
 	    			<button id="stay" class="btn-lg">Stay <i class="fas fa-bed"></i></button>
@@ -133,6 +135,7 @@
 					<div id="map"></div> <!--map object --->
 				</div>
 			<div class="col-xs-12 col-lg-4 ">
+				<!--Results from search displayed here. Element is hidden until search is completed-->
 				<div id="listing">
 					<table id="resultsTable">
 						<h2>Results</h2>
@@ -142,6 +145,8 @@
 			</div>
 			
  		</div> 
+ 		
+ 		<!--When a marker is placed after a search the element below will pop-up and provide more info on the location-->
 	
 		<div class="row resultsTable"> 
 			<div class="col">
@@ -180,11 +185,14 @@
 			<div class="col"><h2>Your Itinerary</h2></div>
 		</div>
 		<div class="row">
+			<!--Placeholder text disappears after a place is added from the search results above-->
 			<div id="filler" class="col"><span>Nothing here yet. Fill it up!</span></div>
 		</div>
 		<div class="row">
+			<!--Added places appear here-->
 			<div class="col"><ul id="myUL"></ul></div>
 		</div>
+		<!--Modal appears when user tries to save itinerary-->
 		<div class="row">
 			<div class="col-2 offset-5">
 				<button id="saveBtn" class="btn-lg" data-toggle="modal" data-target="#myModal">Save Itinerary</button>
