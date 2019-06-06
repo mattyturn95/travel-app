@@ -29,7 +29,7 @@ h1, h2 {
 
 
 .sleeve {
-    background-image:url(".././images/szmigiel-unsplash-min.jpg");
+    background-image:url(".././images/szmigiel-unsplash-min.jpg"); /*Photo by Lukasz Szmigiel on Unsplash*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
