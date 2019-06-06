@@ -7,17 +7,18 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 
 ## Technologies
+
 1. HTML
 2. CSS
 3. JavaScript
-4. Bootstrap (4.3.1)
-5. FontAwesome(v5.8.2)
-6. GoogleFonts
-7. Google Maps
-8. Google Places
-9. Gif maker
-10. Favicon maker
-11. jQuery
+4. Bootstrap (v4.3.1)
+5. jQuery(v3.4.1)
+6. Google Maps
+7. Google Places
+8. GoogleFonts
+9. FontAwesome(v5.8.2)
+10. Ezgif(Gif-maker)
+11. Favicon-Generator
 
 
 ## Demo
@@ -77,26 +78,23 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Media
 
-The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. 
+The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. It was later compressed using this site [compressjpeg.com](https://compressjpeg.com/ "compressjpeg.com")
 
 ### Acknowledgements
 
-The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of the following: ,
-[css animations](https://www.creativebloq.com/inspiration/css-animation-examples "css animations")
-which displayed code this codepen: 
-[SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse").
+The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of the following: [css animations](https://www.creativebloq.com/inspiration/css-animation-examples "css animations")
+which displayed code this codepen: [SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse").
 
-The planning section’s map functionality was modelled after the code contained in the Google Maps API documentation, specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 
-
-[Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "Google Maps API documentation")
+The planning section’s map functionality was modelled after the code contained in the [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "Google Maps API documentation"), 
+specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 
 
 The jQuery code that causes the three div elements in the information section to fade in on scroll was found here:
 [FadeIn on Scroll(jQuery)](https://jsfiddle.net/tcloninger/e5qaD/ "FadeIn on Scroll(jQuery)").
 
-The triangle divs used to create lens effects were generated using this site: [triangle generator](http://apps.eky.hk/css-triangle-generator/ "triangle generator") before changing the size, colour and opacity. 
+The triangle divs used to create lens effects were generated using this [triangle generator site](http://apps.eky.hk/css-triangle-generator/ "triangle generator site") before changing the size, colour and opacity. 
 
-The GIF demonstrating how to use the planner was made using this site [ezgif.com](https://ezgif.com/ "ezgif.com").
+The GIF demonstrating how to use the planner was shot with the capture screen feature of Quicktime and converted to GIF format using this site, [ezgif.com](https://ezgif.com/ "ezgif.com").
 
-The site's favicon was generated using this site: [Favicon generator](https://www.favicon-generator.org/ "Favicon generator").
+The site's favicon was generated using this site, [favicon-generator.org](https://www.favicon-generator.org/ "favicon-generator.org").
 
 
