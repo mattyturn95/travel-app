@@ -44,7 +44,7 @@ This section will be followed by another section containing the Google Maps API 
 
 The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
 
-This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") provides a rough idea of the look of the final product. 
+This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") illustrates early conceptions of the site. This [second wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/routeRepfinal.jpeg "second wireframe") gives an impression of the final look of the site.
 
 
 ## Features
