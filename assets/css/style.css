@@ -260,11 +260,13 @@ table {
     font-family: 'Righteous';
     width: 100%;
     outline: 0;
+    color: #fafafa;
+    background-color: #e04f1f;
+    border: 2px solid #fafafa;
 }
 
 #saveBtn:hover {
     background-color: #1fe01f;
-    color: #fafafa;
 }
 
 .modal-content {
@@ -304,7 +306,7 @@ table {
 
 /*routeRep Logo*/
 
-.section {
+.logoSection {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -316,7 +318,7 @@ table {
 	animation-fill-mode: forwards;
 }
 
-.second {
+.secondText {
 	animation: fadeIn 5s linear;
 	animation-fill-mode: forwards;
 }
