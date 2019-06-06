@@ -115,23 +115,15 @@ footer {
     background-color: #fff;
 }
 
-#locationField {
+#locationField, #controls {
     font-family: "Righteous";
+    color: #474747;
+    font-size: 25px;
+}
+
+#locationField {
     height: 25px;
     background-color: #fafafa;
-    color: #474747;
-    font-size: 25px;
- 
-}
-      
-#controls {
-    font-family: "Righteous";
-    color: #474747;
-    font-size: 25px;
-    /*background-image: linear-gradient(white, #fafafa);*/
-    padding: 5px;
-    border: #fafafa solid 2px;
-    border-radius: 5px;
 }
       
 #autocomplete {
@@ -281,26 +273,26 @@ table {
 
 /*FadeIn Divs*/
 
-.number1, .number2, .number3 {
+.fadeDiv1, .fadeDiv2, .fadeDiv3 {
      font-family: 'Righteous';
      font-size: 75px;
      color: #fafafa;
 }
 
-.number1 {
+.fadeDiv1 {
 	background-color: #bce7f6;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
-.number2 {
+.fadeDiv2 {
 	background-image: linear-gradient(#bce7f6, #e7bcf6);
 	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
-.number3 {
+.fadeDiv3 {
 	background-color: #e7bcf6;
 	border-bottom: 5px solid white;
 	margin-bottom: 70px;
