@@ -56,7 +56,7 @@ In the future, I would like users to have the ability to save their composed iti
 
 ## Testing
 
-The user is prompted to choose one of twelve countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world. 
+The user is prompted to choose one of thirteen countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world. 
 Clicking on the span containing the plus symbol in the results table will add that result to the itinerary. Clicking on the cross contained in the span symbol will remove that item while clicking the name itself will toggle a strike-through css property on the relevant name.
 
 If the user clicks the visit, stay or dine button without first selecting a country and/or city, Montluçon, France will act as the default city.
