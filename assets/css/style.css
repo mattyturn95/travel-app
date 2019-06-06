@@ -1,5 +1,4 @@
 body {
-	/*background-color: #FFD300;*/
 	background-color: #bce7f6;
 	font-family: "Cabin";
 }
@@ -9,8 +8,6 @@ h1, h2 {
 	font-family: "Righteous";
 	padding: 0;
 }
-
-
 
 
 .myGif {
@@ -26,6 +23,11 @@ h1, h2 {
     margin-top: 10px;
 }
 
+.blurb {
+    margin-bottom: 50px;
+}
+
+
 .sleeve {
     background-image:url(".././images/szmigiel-unsplash-min.jpg");
     background-size: cover;
@@ -33,6 +35,14 @@ h1, h2 {
     background-position: center center;
     height: 100vh;
 }
+
+footer {
+    background-color: #474747;
+    color: #fafafa;
+    height: 75px;
+    padding-top: 20px;
+}
+
 
 .thePlanner {
     background-color: #fafafa;
@@ -43,97 +53,44 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-#myUL {
-    list-style: none;
-    padding: 0;
-}
-
-footer {
-    background-color: #474747;
-    color: #fafafa;
-    height: 75px;
-    padding-top: 20px;
-}
-
-#myUL>li {
-    background-color: #00bfff;
-    background-color: #e7bcf6;
-    color: #fafafa;
-    border: 5px solid #fafafa;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#myUL>li:hover {
-    background-color: #bcf6bc;
-}
-
-#myUL>li.checked {
-    text-decoration: line-through;
-}
-
-#saveBtn {
-    font-family: 'Righteous';
-}
-
-#saveBtn:hover {
-    background-color: #bcf6bc;
-    color: #fafafa;
-}
-
-.modal-content {
-    color: #474747;
-}
-
-#map {
-	height: 500px;
-	width: 100%;
-}
-
-.hidden {
-    opacity: 0;
-}
+/*Triangle lens */
 
 .triangleOne {
-width: 0;
-height: 0;
-position: absolute;
-top: 0;
-left: 0;
-border-style: solid;
-border-width: 200px 400px 0 0;
-border-color:  #f6d9bc transparent transparent transparent;
-opacity: 0.5;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 200px 400px 0 0;
+    border-color:  #f6d9bc transparent transparent transparent;
+    opacity: 0.5;
 }
 
 .triangleTwo {
-width: 0;
-height: 0;
-position: absolute;
-top: calc(100vh - 200px);
-right: 0;
-border-style: solid;
-border-width: 0 0 200px 400px;
-border-color: transparent transparent #bce7f6 transparent;
-opacity: 0.5;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: calc(100vh - 200px);
+    right: 0;
+    border-style: solid;
+    border-width: 0 0 200px 400px;
+    border-color: transparent transparent #bce7f6 transparent;
+    opacity: 0.5;
 }
 
 .triangleThree {
-width: 0;
-height: 0;
-position: absolute;
-top: 100vh;
-right: 0;
-border-style: solid;
-border-width: 0 430px 100px 0;
-border-color: transparent #bce7f6 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    border-style: solid;
+    border-width: 0 430px 100px 0;
+    border-color: transparent #bce7f6 transparent transparent;
 }
 
-.blurb {
-    margin-bottom: 50px;
-}
-
-/*hotel results*/
+/*google code begins*/
 
 #listing { 
     height: 500px;
@@ -157,7 +114,7 @@ border-color: transparent #bce7f6 transparent transparent;
 }
       
 #controls {
-   color: #474747;
+    color: #474747;
     font-size: 20px;
     background-color: #fafafa;
 }
@@ -167,174 +124,167 @@ border-color: transparent #bce7f6 transparent transparent;
 }
       
 #country {
-        width: 100%;
+    width: 100%;
 }
       
 .placeIcon {
-        width: 20px;
-        height: 34px;
-        margin: 4px;
+    width: 20px;
+    height: 34px;
+    margin: 4px;
 }
       
 .hotelIcon {
-        width: 24px;
-        height: 24px;
+    width: 24px;
+    height: 24px;
 }
       
 #resultsTable {
-        border-collapse: collapse;
-        width: 100%;
-        
+    border-collapse: collapse;
+    width: 100%;
 }
 
 #rating {
-        font-size: 13px;
+    font-size: 13px;
  }
  
 .iw_table_row {
-        height: 18px;
+    height: 18px;
  }
       
 .iw_attribute_name {
-        font-weight: bold;
-        text-align: right;
+    font-weight: bold;
+    text-align: right;
  }
  
 .iw_table_icon {
-        text-align: right;
+    text-align: right;
  }
  
  table {
-     font-size: 15px;
+    font-size: 15px;
  }
  
  /*google code ends*/
  
+  /*Planner css*/
+#map {
+	height: 500px;
+	width: 100%;
+}
+ 
  #stay, #dine, #visit {
-     font-family: "Righteous";
-     width: 100%;
-     font-size: 50px;
-     background-color: #bce7f6;
-     transition: background-color 0.5s ease-in-out;
+    font-family: "Righteous";
+    width: 100%;
+    font-size: 50px;
+    background-color: #bce7f6;
+    transition: background-color 0.5s ease-in-out;
  }
  
  #stay:hover, #dine:hover, #visit:hover {
-     background-color: #f6d9bc;
-     color: #fafafa;
+    background-color: #f6d9bc;
+    color: #fafafa;
  }
- 
- 
- /*#stay {*/
- /*background-color: #ff8000;*/
- /*}*/
- 
- /*#dine {*/
- /*    background-color: #00bfff;*/
- /*}*/
- 
- /*#visit {*/
- /*    background-color: #00ff80;*/
- /*}*/
  
  .row {
-     padding: 10px;
+    padding: 10px;
  }
  
+.add {
+     color: green;
+     padding: 12px 16px 12px 16px;
+     cursor: pointer;
+     right: 0;
+     font-size: 40px;
+}
+
+/*Itinerary css*/
+
 #itinerary {
-     color: #fafafa;
-     background-color: lightgray;
-     border-radius: 5px;
+      color: #fafafa;
+      background-color: lightgray;
+      border-radius: 5px;
  }
  
 .close {
   right: 0px;
-  top: 0px;
-  font-size: 80px;
-  cursor: pointer;
-  color: #fafafa;
-  opacity: 1;
-  line-height: 0.5;
+      top: 0px;
+      font-size: 80px;
+      cursor: pointer;
+      color: #fafafa;
+      opacity: 1;
+      line-height: 0.5;
 }
 
-.add {
-  color: green;
-  padding: 12px 16px 12px 16px;
-  cursor: pointer;
-  right: 0;
-  font-size: 40px;
+ #myUL {
+     list-style: none;
+     padding: 0;
 }
 
-/*cover*/
+#myUL>li {
+     background-color: #00bfff;
+     background-color: #e7bcf6;
+     color: #fafafa;
+     border: 5px solid #fafafa;
+     font-size: 30px;
+     padding: 20px;
+}
+
+#myUL>li:hover {
+    background-color: #bcf6bc;
+}
+
+#myUL>li.checked {
+    text-decoration: line-through;
+}
+
+#saveBtn {
+    font-family: 'Righteous';
+}
+
+#saveBtn:hover {
+    background-color: #bcf6bc;
+    color: #fafafa;
+}
+
+.modal-content {
+    color: #474747;
+}
+
+/*FadeIn Divs*/
+
+.number1, .number2, .number3 {
+     font-family: 'Righteous';
+     font-size: 75px;
+     color: #fafafa;
+}
 
 .number1 {
-    font-family: 'Righteous';
-    font-size: 75px;
-	/*left: -380px;*/
-	/*width: 30%;*/
 	background-color: #ff8000;
 	background-color: #bce7f6;
-	color: #fafafa;
-	/*animation: slide 0.8s linear;*/
-	/*animation-fill-mode: forwards;*/
 	margin-top: 50px;
 	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
 .number2 {
-    font-family: 'Righteous';
-    font-size: 75px;
-	/*left: -380px;*/
-	/*width: 40%;*/
 	background-color: #00bfff;
 	background-image: linear-gradient(#bce7f6, #e7bcf6);
-	color: #fafafa;
-	/*animation: slideIn 1s linear;*/
-	/*animation-fill-mode: forwards;*/
 	margin-bottom: 50px;
 	border-bottom: 5px solid white;
 }
 
 .number3 {
-    font-family: 'Righteous';
-    font-size: 75px;
-    /*width: 0px;*/
 	background-color: #00ff80;
 	background-color: #e7bcf6;
-	color: #fafafa;
-	/*margin-bottom: 5px;*/
-	/*animation: slideIn 1.2s linear;*/
-	/*animation-fill-mode: forwards;*/
 	border-bottom: 5px solid white;
 	margin-bottom: 70px;
 }
 
+.hidden {
+    opacity: 0;
+}
 
-/*@keyframes slideIn {*/
-/*	from {*/
-/*		width: 0;*/
-/*	}*/
-
-/*	to {*/
-/*		width: 500px;*/
-/*	}*/
-
-/*}*/
-
-/*@keyframes slide {*/
-/*	from {*/
-/*		transform: translate(-400px);*/
-/*	}*/
-
-/*	to {*/
-/*		transform: translate(0);*/
-/*	}*/
-
-/*}*/
-
-
-
-
+/*routeRep Logo*/
 
 .section {
 	position: absolute;
@@ -370,8 +320,6 @@ border-color: transparent #bce7f6 transparent transparent;
   bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
-  /*margin: 0 47.5%;*/
-  /*padding-bottom: 100px;*/
 }
 
 .mouse {
@@ -401,12 +349,6 @@ border-color: transparent #bce7f6 transparent transparent;
   animation-iteration-count: infinite;
   transform-origin: 50% 20.5px;
   will-change: transform;
-}
-
-/* mouse svg ends */
-
-.hidden {
-    opacity: 0;
 }
 
 
