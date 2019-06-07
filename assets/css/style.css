@@ -108,6 +108,7 @@ footer {
     overflow-x: hidden;
     background-color: #e6e6e6;
     color: #1a1a1a;
+    
 }
       
 #findhotels {
@@ -169,7 +170,7 @@ footer {
 }
  
 table {
-    font-size: 15px;
+    font-size: 25px;
 }
  
 /*google code ends*/
@@ -214,7 +215,7 @@ table {
     padding: 12px 16px 12px 16px;
     cursor: pointer;
     right: 0;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 /*Itinerary css*/
