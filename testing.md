@@ -90,7 +90,7 @@ When a phone was turned sideways the SVG mouse would appear on top of the logo. 
 
 ### Unsolved Bugs
 
-Marker images from Maps/Places API blocked, visible incognito - cookie issue?
+Marker images from Google are blocked on browser not in incognitio mode. Failed to load resource: net::ERR_BLOCKED_BY_CLIENT appears in the console. Appears to be a cache/cookie issue but can only get around it by switching to incognito mode.
 
 ## Further Testing
 
