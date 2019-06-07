@@ -107,20 +107,31 @@
 						<!--Drop down menu to select one of twelve countries or no specific country -->
 					<label for="country">Choose a country</label>
 						<select id="country">
-					    <option value="all">Other</option>
-					    <option value="au">Australia</option>
-					    <option value="br">Brazil</option>
-					    <option value="ca">Canada</option>
-					    <option value="fr" selected>France</option>
-					    <option value="de">Germany</option>
-					    <option value="mx">Mexico</option>
-					    <option value="nz">New Zealand</option>
+					    <optgroup label="Europe">
 					    <option value="it">Italy</option>
-					    <option value="za">South Africa</option>
 					    <option value="es">Spain</option>
 					    <option value="pt">Portugal</option>
-					    <option value="us">U.S.A.</option>
 					    <option value="uk">United Kingdom</option>
+					    <option value="de">Germany</option>
+					    <option value="fr" selected>France</option>
+					    </optgroup>
+					    <optgroup label="America">
+					    <option value="br">Brazil</option>
+					    <option value="ca">Canada</option>
+					    <option value="mx">Mexico</option>
+					    <option value="us">U.S.A.</option>
+					    </optgroup>
+					    <optgroup label="Oceania">
+					    <option value="nz">New Zealand</option>
+					    <option value="au">Australia</option>
+					    </optgroup>
+					    <optgroup label="Africa">
+					    <option value="za">South Africa</option>	
+					    </optgroup>
+					    <optgroup label="Asia"></optgroup>
+					    <optgroup label="Country not featured here">
+					    <option value="all">Other</option>
+					    </optgroup>
 					  </select>
 					</div>
 				</div>
