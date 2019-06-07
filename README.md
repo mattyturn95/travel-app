@@ -107,7 +107,7 @@ In the future, I would like users to have the ability to save their composed iti
 
 ## Testing
 
-Information on the testing process may be found in the [testing.md file](). 
+Information on the testing process may be found in the [testing.md file](https://github.com/stiofanEimeid/travel-app/blob/master/testing.md). 
 
 ## Deployment
 
