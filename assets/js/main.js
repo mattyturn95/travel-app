@@ -402,9 +402,26 @@ list.addEventListener('click', function(e) {
 
 //end of google code
 
-// intro fadeIn (tcloniger code)
+
 
 $(document).ready(function() {
+  
+//abeautifulsite smooth scroll code
+  
+  $('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});
+
+// intro fadeIn (tcloniger code)
     
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){

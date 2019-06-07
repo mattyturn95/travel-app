@@ -44,13 +44,23 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 ### Project Goals
 
-...
+#### User Goals
 
-### User Goals
+The central target audience for this page is...
 
-...
+User goals are:
+- list items here
 
-### User Stories
+Parents of pre-school children have a large amount of say about what games their children are exposed to, 
+therefore parental needs must also be at the forefront of any project designed for children in this age group. 
+
+FamilyHub is a great way to meet these user needs because:
+- list items here
+
+#### User Stories
+
+As a visitor to FamilyHub I want:
+1. list items here
 
 I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
 
@@ -126,22 +136,25 @@ In the future, I would like users to have the ability to save their composed iti
 - [Bootstrap](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap** to simplify the structure of the website and make the website responsive easily.
     - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [GitHub](https://github.com/)
+    - This project uses **GitHub** to store and share all project code remotely. 
+    - The new GitHub Projects planner was utilised to plan and keep track of this project. This project plan can be viewed [here]
 - [Unsplash](https://unsplash.com/)
     - The background image used at the top of the app was found on unsplash, a stock image library.
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.
-- [Google Maps](...)
-    - The app uses the Google Maps API and associated code to generate a map object in the app.
-- [Google Places](...)
-    - The app uses the Google Places API to provide location information to the user when they are using the map. 
+- [Google Maps](https://cloud.google.com/maps-platform/)
+    - The app uses the **Google Maps API** and associated code to generate a map object in the app.
+- [Google Places](https://cloud.google.com/maps-platform/places/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_342707335086-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+Places+API+EXA-KWID_43700042842848036-kwd-22859391737-userloc_1007850&utm_term=KW_google%20places%20api-ST_google+places+api&gclid=CMOd95rs1-ICFcGHGwodv48ANg)
+    - The app uses the **Google Places API** to provide location information to the user when they are using the map. 
 - [Favicon](https://www.favicon-generator.org/)
-    - Favicons were generated from a screenshot of the routeRep logo using this site. 
-- [Quicktime]()
-    - Quicktime's screen capture feature was used to capture video of the app in use. 
+    - Favicons were generated from a screenshot of the routeRep logo using the **favicon-generator** site. 
+- [Quicktime](https://support.apple.com/quicktime)
+    - **Quicktime**'s screen capture feature was used to capture video of the app in use. 
 - [Ezgif](https://ezgif.com/)
-    - Video captured using Quicktime was converted to GIF format using this site.
+    - Video captured using Quicktime was converted to GIF format using the **Ezgif** site.
 - [Compressjpeg](https://compressjpeg.com/)
-    - This site was reduced to reduce the file size of the background-image used at the top of the app.
+    - The **Compressjpeg** site was reduced to reduce the file size of the background-image used at the top of the app.
 
 ## Testing
 
@@ -193,4 +206,8 @@ The site's favicon was generated using [favicon-generator.org](https://www.favic
 
 Text gradient code was found at [css-tricks](https://css-tricks.com/snippets/css/gradient-text/ "css tricks").
 
+Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
+
 Finally, this README.md was written with the help of this [guide](https://github.com/AJGreaves/familyhub/blob/master/README.md#code).
+
+Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
