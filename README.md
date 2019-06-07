@@ -64,7 +64,7 @@ routeRep is a great way to meet these user needs because:
 
 I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
 
-As a visitor to FamilyHub I want:
+As a visitor to routeRep I want:
 
 1. to select a city and gather all the information I need for a successful trip. That means finding places to visit, stay and eat.
 2. additionally, I want to keep track of my choices using a list.
