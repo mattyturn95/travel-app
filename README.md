@@ -5,23 +5,36 @@ Stream Two Project: Interactive Frontend Development - Code Institute
 The routeRep travel application uses the Google Maps and Places APIs to allow users to select a location and find places to visit, stay and dine.
 Users may then add these results to an itinerary. They may then continue to edit this itinerary to help plan their perfect trip. 
 
+## Table of Contents
+1. [**UX**](#ux)
+    - [**Project Goals**](#project-goals)
+    - [**User goals**](#player-goals)
+    - [**User Stories**](#user-stories)
+    - [**Design choices**](#design-choices)
+    - [**Wireframes**](#wireframes)
 
-## Technologies
+2. [**Features**](#features)
+    - [**Demo**](#demo)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
 
-1. HTML
-2. CSS
-3. JavaScript
-4. Bootstrap (v4.3.1)
-5. jQuery(v3.4.1)
-6. Google Maps
-7. Google Places
-8. GoogleFonts
-9. FontAwesome(v5.8.2)
+3. [**Technologies**](#technologies)
+
+4. [**Testing**](#testing)
+
+5. [**Deployment**](#deployment)
+    - [**How to run locally**](#how-to-run-locally)
+
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Code**](#code)
+    - [**Acknowledgements**](#acknowledgements)
 
 
-## Demo
 
-![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+
+
 
 
 ## UX
@@ -47,11 +60,29 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 ## Features
 
+### Demo
+
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+
+### Existing Features
+
 The app uses the Google Maps and Google Places API to provide search results about accommodation, places of interest and places to eat. 
 
 ### Features left to implement 
 
 In the future, I would like users to have the ability to save their composed itineraries in the form of a PDF. At the moment, they receive an error message contained in a modal when they click the save button. 
+
+## Technologies
+
+1. HTML
+2. CSS
+3. JavaScript
+4. Bootstrap (v4.3.1)
+5. jQuery(v3.4.1)
+6. Google Maps
+7. Google Places
+8. GoogleFonts
+9. FontAwesome(v5.8.2)
 
 
 ## Testing
@@ -78,6 +109,8 @@ I fixed this issue by using a calc value for this triangle's top property in css
 
 
 ## Deployment
+
+### How to Run Locally
 
 This site is hosted using GitHub pages, deployed directly from the master branch. Under the settings tab of the repository in the GitHub Pages section, the source was set to master branch.  Changes committed in the editor will update the site on GitHub pages accordingly. In order for the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```.
 
