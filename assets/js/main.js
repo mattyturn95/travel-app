@@ -61,6 +61,21 @@ var countries = {
   'uk': {
     center: {lat: 54.8, lng: -4.6},
     zoom: 5
+  },
+  
+  'jp': {
+    center: {lat: 36.2, lng: 138.3},
+    zoom: 5
+  },
+  
+  'ni': {
+    center: {lat: 9.1, lng: 8.7},
+    zoom: 5
+  },
+  
+  'ir': {
+    center: {lat: 53.1, lng: 7.7},
+    zoom: 5
   }
 };
 
