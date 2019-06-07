@@ -46,7 +46,11 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 ### Project Goals
 
+...
+
 ### User Goals
+
+...
 
 ### User Stories
 
@@ -68,7 +72,28 @@ The final section, the itinerary, will be a bullet-point style list that consist
 
 ### Design Choices
 
-...
+The overall feel of this site is ... The following design choices were made with this in mind:
+
+**Fonts**
+
+- The primary font **x** was chosen because...
+- The secondary font **Y** was chosen for...
+
+**Icons**
+
+- list items here
+
+**Colours**
+
+- list colours and reasons here
+
+**Styling**
+
+- list items here
+
+**Backgrounds**
+
+- list items here
 
 ### Wireframes
 
@@ -134,7 +159,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 ```
 7. Press Enter. Your local clone will be created.
 
-Further reading and troubleshooting on how to clone a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+Further reading and troubleshooting on how to clone a repository from GitHub may be found [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
 
