@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="#" target="_blank"><img src="https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepLogofinal.png" alt="routeRep Logo"/></a>
+  <a href="https://stiofaneimeid.github.io/travel-app/" target="_blank"><img src="https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepLogofinal.png" alt="routeRep Logo"/></a>
 </h1>
 
 <div align="center"> 
@@ -42,12 +42,6 @@ Users may then add these results to an itinerary. They may then continue to edit
     - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
 
-
-
-
-
-
-
 ## UX
 
 I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
@@ -73,7 +67,11 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 ### Demo
 
+<div align="center"> 
+
 ![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+
+</div>
 
 ### Existing Features
 
@@ -123,9 +121,24 @@ I fixed this issue by using a calc value for this triangle's top property in css
 
 ### How to Run Locally
 
-This site is hosted using GitHub pages, deployed directly from the master branch. Under the settings tab of the repository in the GitHub Pages section, the source was set to master branch.  Changes committed in the editor will update the site on GitHub pages accordingly. In order for the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```.
+The site was built using Cloud's IDE, added, commited and pushed to GitHub using the terminal. A live version of the site is hosted on GitHub pages. 
 
-In order to run a repository locally, the repository must be cloned. Copy the address ```https://github.com/stiofanEimeid/travel-app.git```, found on the main page of the repository after clicking the clone or download button. In your editor, open the terminal. Type git clone and paste the copied address. Press enter and the local clone will be created. In order to disconnect from this repository, type git remote rm into the terminal.
+### How to run this project locally
+
+In order to run a repository locally, the repository must be cloned. To clone the repository
+:
+1. Follow the link to the [routeRep GitHub repository](https://github.com/stiofanEimeid/travel-app).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your preferred IDE, open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on how to clone a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
 
