@@ -93,17 +93,23 @@ The app uses the Google Maps and Google Places API to provide search results abo
 
 In the future, I would like users to have the ability to save their composed itineraries in the form of a PDF. At the moment, they receive an error message contained in a modal when they click the save button. 
 
-## Technologies
+## Technologies Used
 
-1. HTML
-2. CSS
-3. JavaScript
-4. Bootstrap (4.3.1)
-5. jQuery(3.4.1)
-6. Google Maps
-7. Google Places
-8. GoogleFonts
-9. FontAwesome(5.8.2)
+- This project uses HTML, CSS and JavaScript programming languages.
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+- [Cloud9](https://c9.io) 
+    - Developer used **Cloud9** for their IDE while building the website.
+- [Bootstrap](https://www.bootstrapcdn.com/)
+    - The project uses **Bootstrap** to simplify the structure of the website and make the website responsive easily.
+    - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Unsplash](...)
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.
+- [Google Maps](...)
+- [Google Places](...)
+- [Favicon](...)
+- [EZgif](...)
 
 ## Testing
 
