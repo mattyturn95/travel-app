@@ -126,13 +126,22 @@ In the future, I would like users to have the ability to save their composed iti
 - [Bootstrap](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap** to simplify the structure of the website and make the website responsive easily.
     - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
-- [Unsplash](...)
+- [Unsplash](https://unsplash.com/)
+    - The background image used at the top of the app was found on unsplash, a stock image library.
 - [Google Fonts](https://fonts.google.com/)
     - The project uses **Google fonts** to style the website fonts.
 - [Google Maps](...)
+    - The app uses the Google Maps API and associated code to generate a map object in the app.
 - [Google Places](...)
-- [Favicon](...)
-- [EZgif](...)
+    - The app uses the Google Places API to provide location information to the user when they are using the map. 
+- [Favicon](https://www.favicon-generator.org/)
+    - Favicons were generated from a screenshot of the routeRep logo using this site. 
+- [Quicktime]()
+    - Quicktime's screen capture feature was used to capture video of the app in use. 
+- [Ezgif](https://ezgif.com/)
+    - Video captured using Quicktime was converted to GIF format using this site.
+- [Compressjpeg](https://compressjpeg.com/)
+    - This site was reduced to reduce the file size of the background-image used at the top of the app.
 
 ## Testing
 
