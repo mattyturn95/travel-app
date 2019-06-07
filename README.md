@@ -61,13 +61,9 @@ routeRep is a great way to meet these user needs because:
 I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
 
 As a visitor to FamilyHub I want:
-1. list items here
 
-The app asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
-
-This section will be followed by another section containing the Google Maps API allowing users to select their destination. 
-
-The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
+1. to select a city and gather all the information I need for a successful trip. That means finding places to visit, stay and eat.
+2. additionally, I want to keep track of my choices using a list.
 
 ### Design Choices
 
@@ -90,7 +86,8 @@ I intended to capture a sense of escapism and adventure with the design of the s
 
 - The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
 - Directly below this image is an introductory section that provides some basic guidance about how to use the app. The app is designed to be as intuitive as possible and so the text here was kept to a minimum. A GIF displaying a walkthrough of the site is also provided to help commununicate effectively an understanding of how the site works.
-
+- Minimalist. Cues. Redundancies. Mouse SVG and link contained in logo...
+- 
 **Backgrounds**
 
 - The image is intended to provide a sense of escape; the forest is free of people or distractions and waiting to be explored.
@@ -119,6 +116,7 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 The app uses the Google Maps and Google Places API to provide search results about accommodation, places of interest and places to eat. Each individual result may be added to a list below the map so user's can keep track of the places they wish to visit, stay or dine.
 
+
 ### Features left to implement 
 
 In the future, I would like users to have the ability to save their composed itineraries in the form of a PDF. At the moment, they receive an error message contained in a modal when they click the save button. 
@@ -135,7 +133,6 @@ In the future, I would like users to have the ability to save their composed iti
     - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [GitHub](https://github.com/)
     - This project uses **GitHub** to store and share all project code remotely. 
-    - The new GitHub Projects planner was utilised to plan and keep track of this project. This project plan can be viewed [here]
 - [Unsplash](https://unsplash.com/)
     - The background image used at the top of the app was found on unsplash, a stock image library.
 - [Google Fonts](https://fonts.google.com/)
@@ -187,7 +184,7 @@ The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library
 ### Acknowledgements
 
 The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of this [css animations page](https://www.creativebloq.com/inspiration/css-animation-examples "css animations page")
-which displayed code this codepen: [SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse").
+which displayed code this codepen: [SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse"). Minor changes were made in relation to positioning on the page.
 
 The planning section’s map functionality was modelled after the code contained in the [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "Google Maps API documentation"), 
 specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 

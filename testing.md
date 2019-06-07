@@ -32,9 +32,15 @@ The following section goes through each of the user stories from the UX section 
 
 1. **User story 1**
 
-    - list items here
+    - to select a city and gather all the information I need for a successful trip. That means finding places to visit, stay and eat.
+    
+The Google Places API documentation provided an example of code that allowed users to find a hotel in a selected city. After choosing a country from a dropdown menu, the map would pan to that country. When the user entered the name of a city into the search box the map would pan to that city and markers would drop on the map, indicating hotels in the chosen city.
+I modified the code so that when the user selected a country or a city, markers would not immediately appear indicating hotels. Instead, I took the code that identified hotels and added it to an event listener. This function would only be triggered when the user clicked the button the event listener targeted, labelled 'stay'. I repeated this process for buttons labelled 'visit' and 'dine', that
+displayed markers on places of interest and places to eat on the map when clicked. The API identifies places to put markers based on the 'types' property in the search object. The types lodging and restaurant were conventiently available already, but there was no equivalent for places of interest or tourist attractions. Instead, I included multiple types that fell under this umbrella, including 
+"museum", "park", "zoo", "art_gallery", "church" to provide satisfactory results.
  
-
+ The app asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. 
+ 
 The user is prompted to choose one of thirteen countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world. 
 Clicking on the span containing the plus symbol in the results table will add that result to the itinerary. Clicking on the cross contained in the span symbol will remove that item while clicking the name itself will toggle a strike-through css property on the relevant name.
 
@@ -45,15 +51,15 @@ Changing city does not affect items contained in the itinerary although users ma
 
 If the user wishes to choose a city located outside of the twelve featured in the dropdown menu, they may choose the "all" option from the same menu.
 
+2. **User story 2**
+
+    -  I want to keep track of my choices using a list.
+    
+The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
+
 The user may add the same option multiple times. Duplicates, mistakes or choices no longer desired may be deleted by clicking on the close span appeneded to the end of each list item.
 
 If the user clicks the save button, whether or not the list is populated a modal will be displayed. The modal gives the user an error message and that the site is unable to save the list.
-
-The Google Places API documentation provided an example of code that allowed users to find a hotel in a selected city. After choosing a country from a dropdown menu, the map would pan to that country. When the user entered the name of a city into the search box the map would pan to that city and markers would drop on the map, indicating hotels in the chosen city.
-I modified the code so that when the user selected a country or a city, markers would not immediately appear indicating hotels. Instead, I took the code that identified hotels and added it to an event listener. This function would only be triggered when the user clicked the button the event listener targeted, labelled 'stay'. I repeated this process for buttons labelled 'visit' and 'dine', that
-displayed markers on places of interest and places to eat on the map when clicked. The API identifies places to put markers based on the 'types' property in the search object. The types lodging and restaurant were conventiently available already, but there was no equivalent for places of interest or tourist attractions. Instead, I included multiple types that fell under this umbrella, including 
-"museum", "park", "zoo", "art_gallery", "church" to provide satisfactory results.
-
 
 ## Manual testing
 Below is a detailed account of all the manual testing that has been done to confirm all areas of the site work as expected. 
@@ -80,6 +86,7 @@ This site was tested across multiple browsers (Chrome, Safari, Internet Explorer
 
 When testing the site on a OnePlus 6, I noticed that the second Triangle ended in the corner of the screen rather than the corner of the image. As a result, it appeared to be floating partway up the side of the image. Setting the bottom property to zero did not resolve the issue.
 I fixed this issue by using a calc value for this triangle's top property in css. The triangle's height was 200px and the background image's height was 100vh, so I set ```top``` to ```calc(100vh - 200px)```, placing the triangle the correct distance from the bottom of the image. 
+SVG mouse bug ...
 
 ### Unsolved Bugs
 
@@ -89,6 +96,4 @@ Marker images from Maps/Places API blocked, visible incognito - cookie issue?
 
 Family and friends were asked to try the app on their devices. This insight was invaluable for improving site usability. 
 
-<div align="center"> 
 [**Jump to top &uarr;**](#table-of-contents)
-</div>
