@@ -211,3 +211,7 @@ Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsi
 Finally, this README.md was written with the help of this [guide](https://github.com/AJGreaves/familyhub/blob/master/README.md#code).
 
 Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
+
+<div align="center">
+[**Jump to top &uarr;**](#stephen-byrne-portfolio)
+</div>
