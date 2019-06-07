@@ -340,6 +340,7 @@ table {
   bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
 }
 
 .mouse {
@@ -390,6 +391,12 @@ table {
     
     #locationField, #controls {
         font-size: 15px;
+    }
+}
+
+@media screen and (min-height: 640px){
+    .scroll-link {
+        display: inline;
     }
 }
 

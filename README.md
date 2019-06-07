@@ -82,7 +82,7 @@ I intended to capture a sense of escapism and adventure with the design of the s
 
 **Colours**
 
-- There are three main colours used in the design of the app. 
+- There are three main colours used in the design of the app. Blue to represent clear skies and the sea; yellow to represent sunsine and purple to provide a contrast and to compliment the other two colours.
 
 **Styling**
 
@@ -93,7 +93,7 @@ I intended to capture a sense of escapism and adventure with the design of the s
 **Backgrounds**
 
 - The image is intended to provide a sense of escape; the forest is free of people or distractions and waiting to be explored.
-- Blue outline...
+- Blue outline... Evokes a annotated file...
 
 **Logo**
 

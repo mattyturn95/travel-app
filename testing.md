@@ -86,7 +86,7 @@ This site was tested across multiple browsers (Chrome, Safari, Internet Explorer
 
 When testing the site on a OnePlus 6, I noticed that the second Triangle ended in the corner of the screen rather than the corner of the image. As a result, it appeared to be floating partway up the side of the image. Setting the bottom property to zero did not resolve the issue.
 I fixed this issue by using a calc value for this triangle's top property in css. The triangle's height was 200px and the background image's height was 100vh, so I set ```top``` to ```calc(100vh - 200px)```, placing the triangle the correct distance from the bottom of the image. 
-SVG mouse bug ...
+When a phone was turned sideways the SVG mouse would appear on top of the logo. To fix this its display was set to none and a media query was created setting its display to inline on screens with a min-height of 640px.
 
 ### Unsolved Bugs
 
