@@ -46,33 +46,24 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 #### User Goals
 
-The central target audience for this page is...
+The central target audience for this page is people planning a trip.
 
 User goals are:
 - list items here
 
-Parents of pre-school children have a large amount of say about what games their children are exposed to, 
-therefore parental needs must also be at the forefront of any project designed for children in this age group. 
 
-FamilyHub is a great way to meet these user needs because:
+
+routeRep is a great way to meet these user needs because:
 - list items here
 
 #### User Stories
 
+I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
+
 As a visitor to FamilyHub I want:
 1. list items here
 
-I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
-
-The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
-
-Directly below this image is an introductory section that provides some basic guidance about how to use the app. The app is designed to be as intuitive as possible and so the text here was kept to a minimum. 
-
-The app itself asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
-
-The user will be greeted by a welcome image that includes the app name. 
-
-Following this, an introductory section will set out some basic guidance about how to use the app. 
+The app asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
 
 This section will be followed by another section containing the Google Maps API allowing users to select their destination. 
 
@@ -80,28 +71,34 @@ The final section, the itinerary, will be a bullet-point style list that consist
 
 ### Design Choices
 
-The overall feel of this site is ... The following design choices were made with this in mind:
+I intended to capture a sense of escapism and adventure with the design of the site while communicating the functionality of the site to the user in the clearest way possible. The following design choices were made with this in mind:
 
 **Fonts**
 
-- The primary font **x** was chosen because...
-- The secondary font **Y** was chosen for...
+- The font Righteous was chosen for its dynamic appearence and modern, agile feel to make headers stand out on the page. 
+- The font Cabin was chosen because it complimented the Righteous font. The clean design was perfect for legibility while retaining the same modern and agile feel as the Righteous font.
 
 **Icons**
 
-- list items here
+- The icons used for the visit, stay and dine buttons in the planner for chosen for their simplicity to help convey the purpose of each button easier. The bed for the stay button and the knife and fork for the dine button are self-explanatory. An arch was used with the visit button to help convey the idea of history or impressive places to visit. 
 
 **Colours**
 
-- list colours and reasons here
+- There are three main colours used in the design of the app. 
 
 **Styling**
 
-- list items here
+- The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
+- Directly below this image is an introductory section that provides some basic guidance about how to use the app. The app is designed to be as intuitive as possible and so the text here was kept to a minimum. A GIF displaying a walkthrough of the site is also provided to help commununicate effectively an understanding of how the site works.
 
 **Backgrounds**
 
-- list items here
+- The image is intended to provide a sense of escape; the forest is free of people or distractions and waiting to be explored.
+- Blue outline...
+
+**Logo**
+
+- The logo...
 
 ### Wireframes
 
@@ -212,6 +209,4 @@ Finally, this README.md was written with the help of this [guide](https://github
 
 Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
 
-<div align="center">
-[**Jump to top &uarr;**](#stephen-byrne-portfolio)
-</div>
+[**Jump to top &uarr;**](#table-of-contents)
