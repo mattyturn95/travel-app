@@ -394,6 +394,10 @@ table {
     #locationField, #controls {
         font-size: 15px;
     }
+    
+    .intro {
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-height: 640px){
