@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="#" target="_blank"><img src="#" alt="routeRep Logo"/></a>
+  <a href="https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepLogofinal.png" target="_blank"><img src="#" alt="routeRep Logo"/></a>
 </h1>
 
 <div align="center"> 
