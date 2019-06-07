@@ -19,9 +19,9 @@ Users may then add these results to an itinerary. They may then continue to edit
 ## Table of Contents
 1. [**UX**](#ux)
     - [**Project Goals**](#project-goals)
-    - [**User goals**](#player-goals)
+    - [**User Goals**](#player-goals)
     - [**User Stories**](#user-stories)
-    - [**Design choices**](#design-choices)
+    - [**Design Choices**](#design-choices)
     - [**Wireframes**](#wireframes)
 
 2. [**Features**](#features)
@@ -34,12 +34,10 @@ Users may then add these results to an itinerary. They may then continue to edit
 4. [**Testing**](#testing)
 
 5. [**Deployment**](#deployment)
-    - [**How to run locally**](#how-to-run-locally)
+    - [**How to Run Code Locally**](#how-to-run-locally)
 
 6. [**Credits**](#credits)
-    - [**Content**](#content)
     - [**Media**](#media)
-    - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
 
 ## UX
@@ -144,7 +142,7 @@ Information on the testing process may be found in the [testing.md file](https:/
 
 The site was built using Cloud's IDE, added, commited and pushed to GitHub using the terminal. A live version of the site is hosted on GitHub pages. 
 
-### How to run this project locally
+### How to Run Code Locally
 
 In order to run a repository locally, the repository must be cloned. To clone the repository
 :
