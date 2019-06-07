@@ -69,13 +69,18 @@ var countries = {
   },
   
   'ni': {
-    center: {lat: 9.1, lng: 8.7},
-    zoom: 5
+    center: {lat: 9.6, lng: 8.1},
+    zoom: 6
   },
   
   'ir': {
-    center: {lat: 53.1, lng: 7.7},
-    zoom: 5
+    center: {lat: 53.1, lng: -7.7},
+    zoom: 6
+  },
+  
+  'gr': {
+    center: {lat: 38.6, lng: 23.8},
+    zoom: 6
   }
 };
 
