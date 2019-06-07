@@ -44,6 +44,12 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 ## UX
 
+### Project Goals
+
+### User Goals
+
+### User Stories
+
 I aimed to design a site that captured the idea of escapism while developing site functionality that allowed users to research and plan various aspects of a trip with ease. 
 
 The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
@@ -60,6 +66,12 @@ This section will be followed by another section containing the Google Maps API 
 
 The final section, the itinerary, will be a bullet-point style list that consists of choices made by the user regarding their journey.
 
+### Design Choices
+
+...
+
+### Wireframes
+
 This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") illustrates early conceptions of the site. This [second wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/routeRepfinal.jpeg "second wireframe") gives an impression of the final look of the site.
 
 
@@ -75,7 +87,7 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 ### Existing Features
 
-The app uses the Google Maps and Google Places API to provide search results about accommodation, places of interest and places to eat. 
+The app uses the Google Maps and Google Places API to provide search results about accommodation, places of interest and places to eat. Each individual result may be added to a list below the map so user's can keep track of the places they wish to visit, stay or dine.
 
 ### Features left to implement 
 
@@ -86,13 +98,12 @@ In the future, I would like users to have the ability to save their composed iti
 1. HTML
 2. CSS
 3. JavaScript
-4. Bootstrap (v4.3.1)
-5. jQuery(v3.4.1)
+4. Bootstrap (4.3.1)
+5. jQuery(3.4.1)
 6. Google Maps
 7. Google Places
 8. GoogleFonts
-9. FontAwesome(v5.8.2)
-
+9. FontAwesome(5.8.2)
 
 ## Testing
 
