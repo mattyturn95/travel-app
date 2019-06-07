@@ -48,15 +48,17 @@ Users may then add these results to an itinerary. They may then continue to edit
 
 #### User Goals
 
-The central target audience for this page is people planning a trip.
+The central target audience for this page is people planning a trip with an interest in history, art and outdoor activities, travelling alone or as a group.
 
 User goals are:
-- list items here
-
+- use the planner section to select a city to visit, stay and dine at with ease;
+- keep track of choices made. 
 
 
 routeRep is a great way to meet these user needs because:
-- list items here
+- it uses the Google Maps and Places API to provide comprehensive data on places to visit, stay and dine;
+- users can keep track of their choices using the list functionality of the planner that acts as a simple itinerary;
+- the controls are straightforward but plenty of guidance is provided to make sure no one is confused using the app.
 
 #### User Stories
 
