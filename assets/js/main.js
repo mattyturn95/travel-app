@@ -314,9 +314,7 @@ const addResult =(result, i)=> {
     var div = this.parentElement;
     div.style.display = "none";
   };
-}
-, false);
-
+}, false);
 };
 
 //google code begins again
@@ -341,7 +339,7 @@ function showInfoWindow (){
         infoWindow.open(map, marker);
         buildIWContent(place);
       });
-};
+}
 
 // Load the place information into the HTML elements used by the info window.
 const buildIWContent =(place)=> {

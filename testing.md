@@ -88,3 +88,7 @@ Marker images from Maps/Places API blocked, visible incognito - cookie issue?
 ## Further Testing
 
 Family and friends were asked to try the app on their devices. This insight was invaluable for improving site usability. 
+
+<div align="center"> 
+[**Jump to top &uarr;**](#table-of-contents)
+</div>
