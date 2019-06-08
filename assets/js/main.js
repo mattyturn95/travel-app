@@ -87,8 +87,6 @@ var countries = {
 //Function declared on pageload displaying map
 
 function initMap () {
-  
-  
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: countries['fr'].zoom,
     center: countries['fr'].center,
