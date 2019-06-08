@@ -108,8 +108,12 @@ footer {
     overflow-x: hidden;
     background-color: #e6e6e6;
     color: #1a1a1a;
-    
 }
+
+.hideMe {
+    display: none;
+}
+     
       
 #findhotels {
     font-size: 14px;
@@ -398,6 +402,10 @@ table {
     
     .intro {
         font-size: 25px;
+    }
+    
+    .hideMe {
+        display: block;
     }
 }
 

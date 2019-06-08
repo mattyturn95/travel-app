@@ -87,6 +87,8 @@ var countries = {
 //Function declared on pageload displaying map
 
 function initMap () {
+  
+  
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: countries['fr'].zoom,
     center: countries['fr'].center,
@@ -424,6 +426,18 @@ list.addEventListener('click', function(e) {
 
 $(document).ready(function() {
   
+  $("#stay").click(function(){
+          $("#listing").removeClass("hideMe");
+        });
+        
+  $("#visit").click(function(){
+          $("#listing").removeClass("hideMe");
+        });
+        
+  $("#dine").click(function(){
+          $("#listing").removeClass("hideMe");
+        });
+  
 //abeautifulsite smooth scroll code
   
   $('a[href^="#"]').on('click', function(event) {
@@ -462,3 +476,27 @@ $(document).ready(function() {
     });
     
 });
+
+
+// var listing = document.getElementById("listing");
+
+// visit.addEventListener("click", function(){
+//   if(listing.style.display === "none"){
+//     listing.style.display = "block";
+//   } else return;
+// }, false);
+
+
+// stay.addEventListener("click", function(){
+//   if(listing.style.display === "none"){
+//     listing.style.display = "block";
+//   } else return;
+// }, false);
+
+
+// dine.addEventListener("click", function(){
+//   if(listing.style.display === "none"){
+//     listing.style.display = "block";
+//   } else return;
+// }, false);
+
