@@ -4,7 +4,7 @@
 
 <div align="center"> 
 
-[Go to the site!](https://stiofaneimeid.github.io/travel-app/)
+[Visit the site](https://stiofaneimeid.github.io/travel-app/)
 
 </div>
 
