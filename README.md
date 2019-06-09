@@ -111,7 +111,7 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 <div align="center"> 
 
-![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/assets/images/routeRepDemoLarge.gif "demo gif")
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepDemoLarge.gif "demo gif")
 
 </div>
 
@@ -209,7 +209,7 @@ specifically an example about how to search for hotels by selecting a country an
 
 - Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
 
-- Map styles, [Pale Dawn](https://snazzymaps.com/style/1/pale-dawn), are by Adam Kroghhttps.
+- Map styles, [Pale Dawn](https://snazzymaps.com/style/1/pale-dawn), are by Adam Krogh.
 
 - Finally, this README.md was written with the help of this [guide](https://github.com/AJGreaves/familyhub/blob/master/README.md#code).
 
