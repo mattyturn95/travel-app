@@ -209,6 +209,7 @@ specifically an example about how to search for hotels by selecting a country an
 
 - Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
 
+- Map styles, [Pale Dawn](https://snazzymaps.com/style/1/pale-dawn), are by Adam Kroghhttps.
 
 ### Acknowledgements
 
