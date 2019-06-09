@@ -81,7 +81,46 @@ var countries = {
   'gr': {
     center: {lat: 38.6, lng: 23.8},
     zoom: 6
+  },
+  
+   'nl': {
+    center: {lat: 52.2, lng: 5.6},
+    zoom: 6
+  },
+  
+     'tk': {
+    center: {lat: 39.1, lng: 35.2},
+    zoom: 6
+  },
+  
+     'mo': {
+    center: {lat: 32.4, lng: -6.0},
+    zoom: 6
+  },
+  
+       'sl': {
+    center: {lat: 7.6 , lng: 80.7},
+    zoom: 6
+  },
+  
+       'in': {
+    center: {lat: 20.6, lng: 79.0},
+    zoom: 6
+  },
+  
+         'tl': {
+    center: {lat: 15.1, lng: 101.0},
+    zoom: 6
+  },
+  
+         'vt': {
+    center: {lat: 14.3, lng: 108.3},
+    zoom: 6
   }
+  
+  
+ 
+  //vietnam,
 };
 
 //Function declared on pageload displaying map
@@ -296,7 +335,7 @@ function initMap () {
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#b9d3c2"
+        "color": "#ccd4f6"
       }
     ]
   },
