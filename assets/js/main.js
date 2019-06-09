@@ -296,7 +296,7 @@ function initMap () {
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#bce7f6"
+        "color": "#b9d3c2"
       }
     ]
   },
@@ -305,8 +305,7 @@ function initMap () {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        // "color": "#dfd2ae"
-        "color": "#bce7f6"
+        "color": "#92998d"
       }
     ]
   }
