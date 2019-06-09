@@ -211,9 +211,10 @@ specifically an example about how to search for hotels by selecting a country an
 
 - Map styles, [Pale Dawn](https://snazzymaps.com/style/1/pale-dawn), are by Adam Kroghhttps.
 
-### Acknowledgements
-
 - Finally, this README.md was written with the help of this [guide](https://github.com/AJGreaves/familyhub/blob/master/README.md#code).
 
+### Acknowledgements
+
+Thank you to friends and family for testing the app and the guidance provided by my mentor. 
 
 [**Jump to top &uarr;**](#table-of-contents)
