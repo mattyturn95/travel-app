@@ -111,7 +111,7 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 <div align="center"> 
 
-![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/ezgif.com-optimize.gif "demo gif")
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/assets/images/routeRepDemoLarge.gif "demo gif")
 
 </div>
 

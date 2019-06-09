@@ -17,9 +17,20 @@ h1 {
 }
 
 
-.myGif {
+.myGifMobile {
     margin: 0 auto;
+    border: 5px solid #e6e6e6;
+    border-radius: 2px;
 }
+
+.myGifLarge {
+    margin: 0 auto;
+    display: none;
+    border: 5px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+
 .intro {
     font-size: 35px;
     padding: 70px;
@@ -407,6 +418,14 @@ table {
     }
     
     .hideMe {
+        display: block;
+    }
+    
+    .myGifMobile {
+        display: none;
+    }
+    
+    .myGifLarge {
         display: block;
     }
 }
