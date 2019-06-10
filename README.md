@@ -89,6 +89,7 @@ I intended to capture a sense of escapism and adventure with the design of the s
 **Styling**
 
 - The user is greeted with a full-sized image of a forest, with the app’s brand name and logo taking up a small amount of space in the centre of the image. A mouse SVG provides an unobtrusive cue for the user to scroll down. As a redundancy, the user may click on the logo to cause the page to scroll down using jquery to the introductory section if users miss the SVG mouse. The minimalist design is intended to give the user a sense of calm, ideally the same feeling a holiday provides. 
+- The triangles act as lens to the image and connective tissue between the first and second sections of the app. As lens, the speak to seeing things from new perspective while conveying a sense of energy and dynamicism.
 - Directly below this image is an introductory section that provides some basic guidance about how to use the app. The app is designed to be as intuitive as possible and so the text here was kept to a minimum. A GIF displaying a walkthrough of the site is also provided to help commununicate effectively an understanding of how the site works.
 
 **Backgrounds**
