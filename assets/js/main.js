@@ -267,6 +267,26 @@ const onPlaceChanged = () => {
 
 // Button functionality
 
+function getMarkers(results, status) {
+    if (status === google.maps.places.PlacesServiceStatus.OK) {
+      clearResults();
+      clearMarkers();
+      for (var i = 0; i < results.length; i++) {
+        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
+        var markerIcon = MARKER_PATH + markerLetter + '.png';
+        markers[i] = new google.maps.Marker({
+          position: results[i].geometry.location,
+          animation: google.maps.Animation.DROP,
+          icon: markerIcon
+        });
+        markers[i].placeResult = results[i];
+        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
+        setTimeout(dropMarker(i), i * 100);
+        addResult(results[i], i);
+      }
+    }
+  }
+
 stay.addEventListener("click", 
 
 
@@ -278,36 +298,12 @@ function search() {
   };
 
 
-  places.nearbySearch(search, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearResults();
-      clearMarkers();
-      // Create a marker for each hotel found, and
-      // assign a letter of the alphabetic to each marker icon.
-      for (var i = 0; i < results.length; i++) {
-        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
-        var markerIcon = MARKER_PATH + markerLetter + '.png';
-        // Use marker animation to drop the icons incrementally on the map.
-        markers[i] = new google.maps.Marker({
-          position: results[i].geometry.location,
-          animation: google.maps.Animation.DROP,
-          icon: markerIcon
-        });
-        // If the user clicks a hotel marker, show the details of that hotel
-        // in an info window.
-        markers[i].placeResult = results[i];
-        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-        setTimeout(dropMarker(i), i * 100);
-        addResult(results[i], i);
-      }
-    }
-  });
+  places.nearbySearch(search, getMarkers());
 
 
 }, false);
 
 //dine (goodle code modified to search for restaurants)
-
 
 
 dine.addEventListener("click", function search() {
@@ -317,25 +313,7 @@ dine.addEventListener("click", function search() {
     types: ["restaurant"]
   };
 
-    places.nearbySearch(search, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearResults();
-      clearMarkers();
-      for (var i = 0; i < results.length; i++) {
-        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
-        var markerIcon = MARKER_PATH + markerLetter + '.png';
-        markers[i] = new google.maps.Marker({
-          position: results[i].geometry.location,
-          animation: google.maps.Animation.DROP,
-          icon: markerIcon
-        });
-        markers[i].placeResult = results[i];
-        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-        setTimeout(dropMarker(i), i * 100);
-        addResult(results[i], i);
-      }
-    }
-  });
+    places.nearbySearch(search, getMarkers());
 }, false);
 
 
@@ -347,25 +325,7 @@ visit.addEventListener("click", function search() {
     types: ["museum", "park", "zoo", "art_gallery", "church"]
   };
 
-  places.nearbySearch(search, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      clearResults();
-      clearMarkers();
-      for (var i = 0; i < results.length; i++) {
-        var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
-        var markerIcon = MARKER_PATH + markerLetter + '.png';
-        markers[i] = new google.maps.Marker({
-          position: results[i].geometry.location,
-          animation: google.maps.Animation.DROP,
-          icon: markerIcon
-        });
-        markers[i].placeResult = results[i];
-        google.maps.event.addListener(markers[i], 'click', showInfoWindow);
-        setTimeout(dropMarker(i), i * 100);
-        addResult(results[i], i);
-      }
-    }
-  });
+  places.nearbySearch(search, getMarkers());
 }, false);
 
 
