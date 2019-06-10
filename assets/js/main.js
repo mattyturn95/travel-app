@@ -117,7 +117,6 @@ var countries = {
     center: {lat: 14.3, lng: 108.3},
     zoom: 6
   }
-
 };
 
 //Function declared on pageload displaying map
@@ -260,8 +259,6 @@ const onPlaceChanged = () => {
   }
 };
 
-
-
 // Button functionality
 
 // Search for hotels in the selected city, within the viewport of the map.
@@ -334,7 +331,6 @@ dine.addEventListener("click", function search() {
   });
 }, false);
 
-
 //Places of Interest (goodle code modified to search for places of interest)
 
 visit.addEventListener("click", function search() {
@@ -370,9 +366,7 @@ visit.addEventListener("click", function search() {
   });
 }, false);
 
-
 // <----Part II----->
-
 
 const clearMarkers = () => {
   for (var i = 0; i < markers.length; i++) {
@@ -407,7 +401,6 @@ const dropMarker = (i) => {
 };
 
 //Results Table
-
 
 const addResult =(result, i)=> {
   var results = document.getElementById('results');
@@ -470,7 +463,7 @@ const addResult =(result, i)=> {
 }, false);
 };
 
-//google code begins again
+//google code resumes
    
 
 const clearResults = () => {
@@ -581,7 +574,6 @@ $(document).ready(function() {
             scrollTop: target.offset().top
         }, 1000);
     }
-
 });
 
 // intro fadeIn (tcloniger code)

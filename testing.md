@@ -88,7 +88,7 @@ When a phone was turned sideways the SVG mouse would appear on top of the logo. 
 
 Marker images from Google are blocked on browser not in incognitio mode. ```Failed to load resource: net::ERR_BLOCKED_BY_CLIENT``` appears in the console. Appears to be a cache/cookie issue but can only get around it by switching to incognito mode.
 
-Attempts to repurpose duplicate code into a single function at lines 279-303, 314-338, 350-374 of main.js ran into difficulties when pushed to GitHub and displayed on GitHub pages. The markers fail to display and ```Uncaught TypeError: b is not a function``` appears console when the page.
+Attempts to repurpose duplicate code into a single function at lines 273-297, 308-332, 343-367 of main.js ran into difficulties when pushed to GitHub and displayed on GitHub pages. The markers fail to display and ```Uncaught TypeError: b is not a function``` appears console when the page.
 
 ## Further Testing
 
