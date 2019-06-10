@@ -220,6 +220,6 @@ specifically an example about how to search for hotels by selecting a country an
 
 ### Acknowledgements
 
-Thank you to friends and family for testing the app and the guidance provided by my mentor. 
+Thank you to friends and family for testing the app and for the guidance provided by my mentor. 
 
 [**Jump to top &uarr;**](#table-of-contents)
