@@ -84,7 +84,7 @@ I intended to capture a sense of escapism and adventure with the design of the s
 
 **Colours**
 
-- There are three main colours used in the design of the app. Blue to represent clear skies and the sea; yellow to represent sunsine and purple to provide a contrast and to compliment the other two colours.
+- There are three main colours used in the design of the app. Blue(```#bce7f6```) to represent clear skies and the sea; yellow(```#f6d9bc```) to represent sunsine and purple(```#e7bcf6```) to compliment the other two colours. Violet rather than ```#e7bcf6``` was chosen for the logo because of its greater vibrancy.
 
 **Styling**
 
