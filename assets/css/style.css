@@ -120,6 +120,8 @@ footer {
     color: #1a1a1a;
 }
 
+/*class used to hide results table is displayed using jQuery when buttons clicked or on larger screens*/
+
 .hideMe {
     display: none;
 }
@@ -328,6 +330,8 @@ table {
 	border-bottom: 5px solid white;
 	margin-bottom: 70px;
 }
+
+/*used to hide fadeDivs on first opening the site*/ 
 
 .hidden {
     opacity: 0;
