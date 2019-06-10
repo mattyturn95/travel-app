@@ -267,16 +267,14 @@ const onPlaceChanged = () => {
 
 // Button functionality
 
-stay.addEventListener("click", 
-
-
 // Search for hotels in the selected city, within the viewport of the map.
-function search() {
+
+stay.addEventListener("click", function search() {
+  
     var search = {
     bounds: map.getBounds(),
     types: ["lodging"]
   };
-
 
   places.nearbySearch(search, function(results, status) {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -302,13 +300,9 @@ function search() {
       }
     }
   });
-
-
 }, false);
 
 //dine (goodle code modified to search for restaurants)
-
-
 
 dine.addEventListener("click", function search() {
   
@@ -321,14 +315,19 @@ dine.addEventListener("click", function search() {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
+      // Create a marker for each restaurant found, and
+      // assign a letter of the alphabetic to each marker icon.
       for (var i = 0; i < results.length; i++) {
         var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
         var markerIcon = MARKER_PATH + markerLetter + '.png';
+        // Use marker animation to drop the icons incrementally on the map.
         markers[i] = new google.maps.Marker({
           position: results[i].geometry.location,
           animation: google.maps.Animation.DROP,
           icon: markerIcon
         });
+        // If the user clicks a restaurant marker, show the details of that restaurant
+        // in an info window.
         markers[i].placeResult = results[i];
         google.maps.event.addListener(markers[i], 'click', showInfoWindow);
         setTimeout(dropMarker(i), i * 100);
@@ -342,6 +341,7 @@ dine.addEventListener("click", function search() {
 //Places of Interest (goodle code modified to search for places of interest)
 
 visit.addEventListener("click", function search() {
+  
     var search = {
     bounds: map.getBounds(),
     types: ["museum", "park", "zoo", "art_gallery", "church"]
@@ -351,14 +351,19 @@ visit.addEventListener("click", function search() {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
       clearResults();
       clearMarkers();
+      // Create a marker for each place of interest found, and
+      // assign a letter of the alphabetic to each marker icon.
       for (var i = 0; i < results.length; i++) {
         var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
         var markerIcon = MARKER_PATH + markerLetter + '.png';
+        // Use marker animation to drop the icons incrementally on the map.
         markers[i] = new google.maps.Marker({
           position: results[i].geometry.location,
           animation: google.maps.Animation.DROP,
           icon: markerIcon
         });
+        // If the user clicks a place of interest marker, show the details of that place of interest
+        // in an info window.
         markers[i].placeResult = results[i];
         google.maps.event.addListener(markers[i], 'click', showInfoWindow);
         setTimeout(dropMarker(i), i * 100);
