@@ -83,44 +83,41 @@ var countries = {
     zoom: 6
   },
   
-   'nl': {
+  'nl': {
     center: {lat: 52.2, lng: 5.6},
     zoom: 6
   },
   
-     'tk': {
+  'tk': {
     center: {lat: 39.1, lng: 35.2},
     zoom: 6
   },
   
-     'mo': {
+  'mo': {
     center: {lat: 32.4, lng: -6.0},
     zoom: 6
   },
   
-       'sl': {
+  'sl': {
     center: {lat: 7.6 , lng: 80.7},
     zoom: 6
   },
   
-       'in': {
+  'in': {
     center: {lat: 20.6, lng: 79.0},
     zoom: 6
   },
   
-         'tl': {
+  'tl': {
     center: {lat: 15.1, lng: 101.0},
     zoom: 6
   },
   
-         'vt': {
+  'vt': {
     center: {lat: 14.3, lng: 108.3},
     zoom: 6
   }
-  
-  
- 
-  //vietnam,
+
 };
 
 //Function declared on pageload displaying map

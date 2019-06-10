@@ -41,13 +41,11 @@ The app asks users to choose a country and then enter the name of a city in that
  
 The dropdown menu offers the user the choice between twenty-four suggested countries across five continents. However, if the user wishes to choose a city located outside of those featured in the dropdown menu, they may choose the ```other``` option from the same menu. They may now search for any city in the world. 
 
-
-
+When the user types into the city search box, suggestions correspond to cities in that location.
 If the user clicks the visit, stay or dine button without first selecting a country and/or city, Montluçon, France will act as the default city.
 Alternating between different options to visit, stay and dine lays down relevant markers but also erases markers from the previous choice. Nevertheless, by adding lcoations to the itinerary users can keep track of their choices.
 Changing city does not affect items contained in the itinerary although users may find it difficult to differentiate between choices relating to different cities. 
-
-
+Markers dropped into the map correspond to the correct location and the small corresponding text-box that appears when a user clicks on a map marker is also accurate.
 
 2. **to keep track of my choices using a list.**
 
