@@ -152,7 +152,7 @@ In the future, I would like users to have the ability to save their composed iti
     - Video captured using Quicktime was converted to GIF format using the **Ezgif** site.
 - [Compressjpeg](https://compressjpeg.com/)
     - The **Compressjpeg** site was reduced to reduce the file size of the background-image used at the top of the app.
--[Autoprefixer](https://autoprefixer.github.io/)
+- [Autoprefixer](https://autoprefixer.github.io/)
     - The Autoprefixer was used to to make sure css had all prefixes necessary to work across all browsers.
 
 ## Testing
