@@ -487,7 +487,7 @@ table {
 }
 
 @media screen and (min-width: 1281px){
-    .resultsTable, table, #myUL>li {
+    table, #myUL>li {
         font-size: 20px;
     }
     
