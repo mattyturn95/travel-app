@@ -47,7 +47,7 @@ If the user clicks the visit, stay or dine button without first selecting a coun
 Alternating between different options to visit, stay and dine lays down relevant markers but also erases markers from the previous choice. Nevertheless, by adding lcoations to the itinerary users can keep track of their choices.
 Changing city does not affect items contained in the itinerary although users may find it difficult to differentiate between choices relating to different cities. 
 
-If the user wishes to choose a city located outside of the twelve featured in the dropdown menu, they may choose the "all" option from the same menu.
+The dropdown menu offers the user the choice between twenty-four suggested countries across five continents. However, iff the user wishes to choose a city located outside of those featured in the dropdown menu, they may choose the ```other``` option from the same menu.
 
 2. **to keep track of my choices using a list.**
 
