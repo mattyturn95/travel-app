@@ -146,8 +146,8 @@ In the future, I would like users to have the ability to save their composed iti
     - The app uses the **Google Places API** to provide location information to the user when they are using the map. 
 - [Favicon](https://www.favicon-generator.org/)
     - Favicons were generated from a screenshot of the routeRep logo using the **favicon-generator** site. 
-- [Quicktime](https://support.apple.com/quicktime)
-    - **Quicktime**'s screen capture feature was used to capture video of the app in use. 
+- [QuickTime](https://support.apple.com/quicktime)
+    - **QuickTime**'s screen capture feature was used to capture video of the app in use. 
 - [Ezgif](https://ezgif.com/)
     - Video captured using Quicktime was converted to GIF format using the **Ezgif** site.
 - [Compressjpeg](https://compressjpeg.com/)
