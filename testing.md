@@ -30,9 +30,7 @@ The following section goes through each of the user stories from the UX section 
 
 **As a user I want**
 
-1. **User story 1**
-
-    - to select a city and gather all the information I need for a successful trip. That means finding places to visit, stay and eat.
+1. **to select a city and gather all the information I need for a successful trip. That means finding places to visit, stay and eat.**
     
 The Google Places API documentation provided an example of code that allowed users to find a hotel in a selected city. After choosing a country from a dropdown menu, the map would pan to that country. When the user entered the name of a city into the search box the map would pan to that city and markers would drop on the map, indicating hotels in the chosen city.
 I modified the code so that when the user selected a country or a city, markers would not immediately appear indicating hotels. Instead, I took the code that identified hotels and added it to an event listener. This function would only be triggered when the user clicked the button the event listener targeted, labelled 'stay'. I repeated this process for buttons labelled 'visit' and 'dine', that
@@ -51,10 +49,8 @@ Changing city does not affect items contained in the itinerary although users ma
 
 If the user wishes to choose a city located outside of the twelve featured in the dropdown menu, they may choose the "all" option from the same menu.
 
-2. **User story 2**
+2. **to keep track of my choices using a list.**
 
-    -  I want to keep track of my choices using a list.
-    
 The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
 
 The user may add the same option multiple times. Duplicates, mistakes or choices no longer desired may be deleted by clicking on the close span appeneded to the end of each list item.
