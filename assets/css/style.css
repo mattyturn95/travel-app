@@ -482,6 +482,22 @@ table {
     .myGifLarge {
         display: block;
     }
+    
+    
+}
+
+@media screen and (min-width: 1281px){
+    .resultsTable, table, #myUL>li {
+        font-size: 20px;
+    }
+    
+    .add {
+        font-size: 40px;
+    }
+    
+    .close {
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-height: 640px){
