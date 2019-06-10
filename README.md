@@ -155,7 +155,7 @@ In the future, I would like users to have the ability to save their composed iti
 - [Autoprefixer](https://autoprefixer.github.io/)
     - The **Autoprefixer** was used to to make sure css had all prefixes necessary to work across all browsers.
 - [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
-    - The w3schools.com HTML Color Picker was used to help find colours for the app.
+    - The w3schools.com **HTML Color Picker** was used to help find colours for the app.
 
 ## Testing
 
