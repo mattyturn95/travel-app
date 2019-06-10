@@ -37,21 +37,23 @@ I modified the code so that when the user selected a country or a city, markers 
 displayed markers on places of interest and places to eat on the map when clicked. The API identifies places to put markers based on the ```types``` property in the search object. The ```types``` ```lodging``` and ```restaurant``` were conventiently available already, but there was no equivalent for places of interest or tourist attractions. Instead, I included multiple types that fell under this umbrella, including 
 ```museum```, ```park```, ```zoo```, ```art_gallery```, ```church``` to provide satisfactory results.
  
- The app asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. 
+The app asks users to choose a country and then enter the name of a city in that country. The map responds to each request, panning to the country and then to the city. The user then chooses from one of three options what they’d like to search for in the city, someplace to dine, someplace to visit, or someplace to stay. Markers are dropped into the map and the corresponding search results are displaced in a table alongside the map. Hovering over the markers causes a small text box to pop up providing some more information about the target. 
  
-The user is prompted to choose one of thirteen countries contained in the dropdown menu and then a city in that country. Choosing all from the dropdown menu will allow the user to select any city in the world. 
-Clicking on the span containing the plus symbol in the results table will add that result to the itinerary. Clicking on the cross contained in the span symbol will remove that item while clicking the name itself will toggle a strike-through css property on the relevant name.
+The dropdown menu offers the user the choice between twenty-four suggested countries across five continents. However, if the user wishes to choose a city located outside of those featured in the dropdown menu, they may choose the ```other``` option from the same menu. They may now search for any city in the world. 
+
+
 
 If the user clicks the visit, stay or dine button without first selecting a country and/or city, Montluçon, France will act as the default city.
-
 Alternating between different options to visit, stay and dine lays down relevant markers but also erases markers from the previous choice. Nevertheless, by adding lcoations to the itinerary users can keep track of their choices.
 Changing city does not affect items contained in the itinerary although users may find it difficult to differentiate between choices relating to different cities. 
 
-The dropdown menu offers the user the choice between twenty-four suggested countries across five continents. However, iff the user wishes to choose a city located outside of those featured in the dropdown menu, they may choose the ```other``` option from the same menu.
+
 
 2. **to keep track of my choices using a list.**
 
-The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. Once the user is finished, she will have a list of all the places of interest to her. 
+The corresponding search results are accompanied by a span containing a plus button that allows users to add places of interest to them to an itinerary at the bottom of the page. 
+
+Clicking on the span containing the plus symbol in the results table will add that result to the itinerary. Clicking on the cross contained in the span symbol will remove that item while clicking the name itself will toggle a strike-through css property on the relevant name. Once the user is finished, she will have a list of all the places of interest to her. 
 
 The user may add the same option multiple times. Duplicates, mistakes or choices no longer desired may be deleted by clicking on the close span appeneded to the end of each list item.
 
