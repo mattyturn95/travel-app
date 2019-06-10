@@ -551,7 +551,7 @@ list.addEventListener('click', function(e) {
 
 //end of google code
 
-
+//hide results on mobile until one of the stay, visit or dine buttons are clicked
 
 $(document).ready(function() {
   

@@ -102,7 +102,7 @@ I intended to capture a sense of escapism and adventure with the design of the s
 
 ### Wireframes
 
-This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg "wireframe") illustrates early conceptions of the site. This [second wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/routeRepfinal.jpeg "second wireframe") gives an impression of the final look of the site.
+This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/TA-wireframe.jpeg) illustrates early conceptions of the site. This [second wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/wireframes/routeRepfinal.jpeg) gives an impression of the final look of the site.
 
 
 ## Features
@@ -111,7 +111,7 @@ This [wireframe](https://github.com/stiofanEimeid/travel-app/blob/master/assets/
 
 <div align="center"> 
 
-![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepDemoLarge.gif "demo gif")
+![demo gif](https://github.com/stiofanEimeid/travel-app/blob/master/assets/images/routeRepDemoLarge.gif)
 
 </div>
 
@@ -152,6 +152,8 @@ In the future, I would like users to have the ability to save their composed iti
     - Video captured using Quicktime was converted to GIF format using the **Ezgif** site.
 - [Compressjpeg](https://compressjpeg.com/)
     - The **Compressjpeg** site was reduced to reduce the file size of the background-image used at the top of the app.
+-[Autoprefixer](https://autoprefixer.github.io/)
+    - The Autoprefixer was used to to make sure css had all prefixes necessary to work across all browsers.
 
 ## Testing
 
@@ -186,26 +188,26 @@ Further reading and troubleshooting on how to clone a repository from GitHub may
 
 ### Media
 
-- The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. It was later compressed using [compressjpeg.com](https://compressjpeg.com/ "compressjpeg.com").
+- The photo is by Lukasz Szmigiel and was found on Unsplash, a stock image library. It was later compressed using [compressjpeg.com](https://compressjpeg.com/).
 
 ### Code
 
-- The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of this [css animations page](https://www.creativebloq.com/inspiration/css-animation-examples "css animations page")
+- The SVG mouse found at the top of the site was initially found on page one, entry no. 3 of this [css animations page](https://www.creativebloq.com/inspiration/css-animation-examples)
 which displayed code this codepen: [SVG mouse](https://codepen.io/matchboxhero/pen/gGdJYo "SVG mouse"). Minor changes were made in relation to positioning on the page.
 
-- The planning section’s map functionality was modelled after the code contained in the [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch "Google Maps API documentation"), 
+- The planning section’s map functionality was modelled after the code contained in the [Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch), 
 specifically an example about how to search for hotels by selecting a country and a city. It was modified to include searches for places of interest and places to dine. Changes were also made to allow users to push results to a list. 
 
 - The jQuery code that causes the three div elements in the information section to fade in on scroll was found here:
-[FadeIn on Scroll(jQuery)](https://jsfiddle.net/tcloninger/e5qaD/ "FadeIn on Scroll(jQuery)").
+[FadeIn on Scroll(jQuery)](https://jsfiddle.net/tcloninger/e5qaD/).
 
-- The triangle divs used to create lens effects were generated using this [triangle generator site](http://apps.eky.hk/css-triangle-generator/ "triangle generator site") before changing the size, colour and opacity. 
+- The triangle divs used to create lens effects were generated using this [triangle generator site](http://apps.eky.hk/css-triangle-generator/) before changing the size, colour and opacity. 
 
-- The GIF demonstrating how to use the planner was shot with the capture screen feature of Quicktime and converted to GIF format using this site, [ezgif.com](https://ezgif.com/ "ezgif.com").
+- The GIF demonstrating how to use the planner was shot with the capture screen feature of Quicktime and converted to GIF format using this site, [ezgif.com](https://ezgif.com/).
 
-- The site's favicon was generated using [favicon-generator.org](https://www.favicon-generator.org/ "favicon-generator.org").
+- The site's favicon was generated using [favicon-generator.org](https://www.favicon-generator.org/).
 
-- Text gradient code was found at [css-tricks](https://css-tricks.com/snippets/css/gradient-text/ "css tricks").
+- Text gradient code was found at [css-tricks](https://css-tricks.com/snippets/css/gradient-text/).
 
 - Smooth scroll functionality found here [abeautifulsite](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
 
